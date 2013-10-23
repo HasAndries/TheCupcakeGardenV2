@@ -1,0 +1,13 @@
+{
+  "base": {
+
+  },
+  "development": {
+    "galleryPath": "/public/test_content/gallery",
+    "galleryPublicPath": "/test_content/gallery"
+  },
+  "production": {
+    "galleryPath": "/public/content/gallery",
+    "galleryPublicPath": "/content/gallery"
+  }
+}

@@ -4,10 +4,7 @@
 {= block js =}{= endblock =}
 
 {= block content =}
-<div class="content home {{ displayMode }} hidden-xs hidden-sm">
-  <a href="/gallery"><img class="logo" src="images/welcome.gif" alt=""/></a>
-</div>
-<div class="content home {{ displayMode }} visible-xs visible-sm">
-  <a href="/gallery"><img class="logo" src="images/welcome.gif" alt=""/></a>
+<div class="content gallery {{ displayMode }}" ng-controller="GalleryController">
+
 </div>
 {= endblock =}
