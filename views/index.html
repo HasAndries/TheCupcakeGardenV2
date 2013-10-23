@@ -1,10 +1,13 @@
-{% extends 'layout.html' %}
+{= extends 'layout.html' =}
 
-{% block css %}{% endblock %}
-{% block js %}{% endblock %}
+{= block css =}{= endblock =}
+{= block js =}{= endblock =}
 
-{% block content %}
-<div class="content home hidden-xs hidden-sm">
-  <a href="/gallery"><img id="logo" src="images/welcome.gif" alt=""/></a>
+{= block content =}
+<div class="content home {{ displayMode }} hidden-xs hidden-sm">
+  <a href="/gallery"><img class="logo" src="images/welcome.gif" alt=""/></a>
 </div>
-{% endblock %}
+<div class="content home {{ displayMode }} visible-xs visible-sm">
+  <a href="/gallery"><img class="logo" src="images/welcome.gif" alt=""/></a>
+</div>
+{= endblock =}
