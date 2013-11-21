@@ -4,7 +4,57 @@
 {= block js =}{= endblock =}
 
 {= block content =}
-<div class="content gallery {{ displayMode }} hidden-xs hidden-sm">
-  <a href="/gallery"><img class="logo" src="images/welcome.gif" alt=""/></a>
+<div class="content gallery {{ displayMode }}">
+  <div class="visible-md visible-lg">
+    {= for thumbnail in thumbnails =}
+    {= if loop.index0 % 4 === 0 =}
+    <div class="row">
+      {= endif =}
+      <div class="col-md-3">
+        <a class="thumbnail">
+          <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
+
+          <h2>{[thumbnail.name]}</h2>
+        </a>
+      </div>
+      {= if loop.index0 % 4 === 3 || loop.last =}
+    </div>
+    {= endif =}
+    {= endfor =}
+  </div>
+  <div class="visible-sm">
+    {= for thumbnail in thumbnails =}
+    {= if loop.index0 % 3 === 0 =}
+    <div class="row">
+      {= endif =}
+      <div class="col-sm-4">
+        <a class="thumbnail">
+          <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
+
+          <h2>{[thumbnail.name]}</h2>
+        </a>
+      </div>
+      {= if loop.index0 % 3 === 2 || loop.last =}
+    </div>
+    {= endif =}
+    {= endfor =}
+  </div>
+  <div class="visible-xs">
+    {= for thumbnail in thumbnails =}
+    {= if loop.index0 % 2 === 0 =}
+    <div class="row">
+      {= endif =}
+      <div class="col-xs-6">
+        <a class="thumbnail">
+          <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
+
+          <h2>{[thumbnail.name]}</h2>
+        </a>
+      </div>
+      {= if loop.index0 % 2 === 1 || loop.last =}
+    </div>
+    {= endif =}
+    {= endfor =}
+  </div>
 </div>
 {= endblock =}
