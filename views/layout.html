@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" ng-app="tcg" id="ng-app">
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="The Cupcake Garden - With cupcakes, cakes and out of this world decorations, you can be sure to get the best in Cape Town from us."/>
+  <title>The Cupcake Garden</title>
+
+  <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>-->
+  <!--<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css">-->
+  <link rel="stylesheet" href="/styles/bootstrap/bootstrap.min.css"/>
+  <link rel="stylesheet" href="/styles/bootstrap/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="/main.css"/>
+
+  {= block css =}{= endblock =}
+
+  <script lang="text/javascript" src="lib/google.js"></script>
+  <!--[if lte IE 8]>
+  <script>
+    document.createElement('ng-include');
+    document.createElement('ng-pluralize');
+    document.createElement('ng-view');
+    document.createElement('ng-repeat');
+
+    // Optionally these for CSS
+    document.createElement('ng:include');
+    document.createElement('ng:pluralize');
+    document.createElement('ng:view');
+    document.createElement('ng:repeat');
+  </script>
+  <![endif]-->
+</head>
+<body>
+<!-- LIBS -->
+<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/json2/20121008/json2.js"></script>-->
+<!--<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>-->
+<!--<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.0-rc.3/angular.min.js"></script>-->
+<!--<script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>-->
+
+<script type="text/javascript" src="/lib/json2.js"></script>
+<script type="text/javascript" src="/lib/jquery/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="/lib/bootstrap/bootstrap.min.js"></script>
+<script type="text/javascript" src="/lib/angular/angular.js"></script>
+<script type="text/javascript" src="/lib/angular-ui/ui-bootstrap-custom-tpls-0.6.0.min.js"></script>
+<!-- APP -->
+<script type="text/javascript" src="/js/misc/prototypes.js"></script>
+<script type="text/javascript" src="/js/app.js"></script>
+<script type="text/javascript" src="/js/config.base.js"></script>
+<script type="text/javascript" src="/js/config.js"></script>
+<!-- SERVICES -->
+<script type="text/javascript" src="/js/services/displayService.js"></script>
+<!-- DIRECTIVES -->
+<script type="text/javascript" src="/js/directives/windowMonitor.js"></script>
+<!-- CONTROLLERS -->
+<script type="text/javascript" src="/js/controllers/LayoutController.js"></script>
+<script type="text/javascript" src="/js/controllers/{[ pageName ]}Controller.js"></script>
+
+<div class="container" window-monitor="mode-full" ng-controller="LayoutController">
+  <div id="mode-full" class="visible-md visible-lg"></div>
+  <div class="facebook">
+    <a href="http://www.facebook.com/pages/The-Cupcake-Garden/135452913192655"></a>
+  </div>
+  <div class="row">
+    <div class="main full col-md-10 hidden-xs hidden-sm {[ pageName ]}">
+      {= block content =}{= endblock =}
+    </div>
+    <div class="col-md-2 nav">
+      <div class="navLogo">
+        <a href="/gallery"><img src="images/logo_small.gif"/></a>
+      </div>
+      {= for menuItem in menuItems =}
+      <a class="item" href="{[menuItem.link]}"><h1>{[menuItem.name]}</h1></a>
+      {= endfor =}
+      <div class="navFooter">
+        <img src="images/nav_footer.png"/>
+      </div>
+    </div>
+    <div class="main col-md-10 visible-xs visible-sm">
+      {= block content =}{= endblock =}
+    </div>
+  </div>
+</div>
+</body>
+</html>
