@@ -31,8 +31,9 @@ swig.setDefaults({
 //routes
 var home = require('./routes/home');
 var gallery = require('./routes/gallery');
-app.get('/', home.render);
-app.get('/gallery', gallery.render);
+app.get('/', home.index);
+app.get('/gallery', gallery.index);
+app.get('/gallery/:folder', gallery.folder);
 //special routes
 var layout = require('./routes/layout');
 app.get('/main.css', layout.css);

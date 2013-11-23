@@ -4,14 +4,14 @@
 {= block js =}{= endblock =}
 
 {= block content =}
-<div class="content gallery {{ displayMode }}">
+<div class="content gallery {{ displayMode }}" ng-controller="GalleryController">
   <div class="visible-md visible-lg">
     {= for thumbnail in thumbnails =}
     {= if loop.index0 % 4 === 0 =}
     <div class="row">
       {= endif =}
       <div class="col-md-3">
-        <a class="thumbnail">
+        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target="#picturesModal">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -56,5 +56,33 @@
     {= endif =}
     {= endfor =}
   </div>
+  <div class="modal fade" id="picturesModal" tabindex="-1" role="dialog" aria-labelledby="picturesModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title">{{pictures.folder}}</h4>
+        </div>
+        <div class="modal-body">
+          <div ng-show="pictures.busy">Loading...</div>
+          <div ng-show="pictures.error">There was a problem loading the Gallery. Please try again later.</div>
+          <div ng-show="!pictures.busy">
+            <div carousel interval="4">
+              <slide ng-repeat="item in pictures.items" active="slide.active">
+                <img ng-src="{{item.path}}" style="margin:auto;">
+
+                <div class="carousel-caption">
+                  <h4>{{item.name}}</h4>
+                </div>
+              </slide>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
 </div>
 {= endblock =}
