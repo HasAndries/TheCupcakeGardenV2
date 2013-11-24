@@ -28,4 +28,20 @@ function GalleryController($scope, $http) {
     };
     $http.get(['/gallery', folder].join('/')).success(success).error(error);
   };
+  //---------- getRowCount ----------
+  $scope.getRowCount = function (items, columns) {
+    var rows = parseInt(items.length / columns);
+    if (items.length % columns != 0)
+      rows += 1;
+    console.log('--------------------------');
+    console.log(items);
+    console.log(rows);
+    console.log(new Array(rows));
+    console.log('**************************');
+    return new Array(rows);
+  };
+  //---------- getNumber ----------
+  $scope.getNumber = function (num) {
+    return new Array(num);
+  };
 }

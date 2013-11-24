@@ -171,12 +171,51 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 
-.modal-dialog{
-  width: 860px;
+#picturesModal .modal-dialog {
+  width: 1020px;
 }
 
-#galleryCarousel{
+#picturesModal .modal-header {
+  color: @blue;
+}
+
+#galleryCarousel {
+  width: 960px;
+}
+
+#galleryCarousel .carousel-inner {
+  margin: auto;
   width: 800px;
+}
+
+.carousel-button {
+  border: 1px solid @blue;
+  color: @blue;
+  display: block;
+  font-size: 72px;
+  padding-top: 25%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 80px;
+}
+
+.carousel-button.left {
+  border-radius: 4px 0 0 4px;
+}
+
+.carousel-button.right {
+  border-radius: 0 4px 4px 0;
+  right: 0;
+  left: auto;
+}
+
+.carousel-button:hover {
+  border: 1px solid @pink;
+  color: @pink;
 }
 
 /********************************************************
