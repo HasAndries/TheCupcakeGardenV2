@@ -7,6 +7,11 @@ function GalleryController($scope, $http) {
     visible: false,
     error: null
   };
+  $scope.slideCount = 0;
+//  $scope.rowCountFull = null;
+//  $scope.rowColumnsFull = $scope.getNumber(8);
+//  $scope.rowCountMini = null;
+//  $scope.rowColumnsMini = $scope.getNumber(4);
   //---------- loadPictures ----------
   $scope.loadPictures = function (folder) {
     $scope.pictures.folder = folder;
@@ -20,6 +25,9 @@ function GalleryController($scope, $http) {
     };
     var success = function (pictures) {
       $scope.pictures.items = pictures;
+      $scope.slideCount = pictures.length;
+//      $scope.rowCountFull = $scope.getRowCount(pictures, $scope.rowColumnsFull);
+//      $scope.rowCountMini = $scope.getRowCount(pictures, $scope.rowColumnsMini);
       finish();
     };
     var error = function (error) {
@@ -29,19 +37,17 @@ function GalleryController($scope, $http) {
     $http.get(['/gallery', folder].join('/')).success(success).error(error);
   };
   //---------- getRowCount ----------
-  $scope.getRowCount = function (items, columns) {
-    var rows = parseInt(items.length / columns);
-    if (items.length % columns != 0)
+  $scope.getRowCount = function (total, columns) {
+    var rows = parseInt(total / columns);
+    if (total % columns != 0)
       rows += 1;
-    console.log('--------------------------');
-    console.log(items);
-    console.log(rows);
-    console.log(new Array(rows));
-    console.log('**************************');
-    return new Array(rows);
+    return $scope.getNumber(rows);
   };
   //---------- getNumber ----------
   $scope.getNumber = function (num) {
-    return new Array(num);
+    var array = [];
+    for(var ct=0;ct<num;ct++)
+      array.push(ct);
+    return array;
   };
 }

@@ -4,17 +4,16 @@
     <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/gallery.html" afterPath="$PROJECT_DIR$/views/gallery.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/galleryController.js" afterPath="$PROJECT_DIR$/public/js/controllers/galleryController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/main.less" afterPath="$PROJECT_DIR$/public/styles/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheCupcakeGardenV2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385304305493" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385409411442" ignored="false" />
     <file path="/layout.swig" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382172750825" ignored="false" />
     <file path="/app.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385200427975" ignored="false" />
     <file path="/index.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382175681900" ignored="false" />
     <file path="/index.html" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385063944358" ignored="false" />
-    <file path="/gallery.html" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385310867486" ignored="false" />
+    <file path="/gallery.html" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385411420603" ignored="false" />
     <file path="/package.json" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382298376138" ignored="false" />
     <file path="/layout.html" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385292901018" ignored="false" />
     <file path="/layout.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382299582352" ignored="false" />
@@ -35,7 +34,7 @@
     <file path="/style.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382297602712" ignored="false" />
     <file path="/main.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385309577581" ignored="false" />
     <file path="$PROJECT_DIR$/../TheCupcakeGarden/app/css/app.css" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382299886756" ignored="false" />
-    <file path="/galleryController.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385311134121" ignored="false" />
+    <file path="/galleryController.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385411096338" ignored="false" />
     <file path="$PROJECT_DIR$/../idp_ui/.idea/workspace.xml" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382563674860" ignored="false" />
     <file path="/config.base.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382557087072" ignored="false" />
     <file path="/a.dummy" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385205111317" ignored="false" />
@@ -73,10 +72,9 @@
       <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/gallery.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="93" column="54" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.7344301">
+            <state line="73" column="46" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.35370153">
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-                <marker date="1385311269913" expanded="true" signature="3425:3593" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -85,7 +83,7 @@
       <file leaf-file-name="galleryController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/controllers/galleryController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="22" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+            <state line="42" column="16" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,7 +146,6 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -178,6 +175,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -386,17 +384,16 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../idp_ui" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -522,18 +519,22 @@
       <created>1385296330419</created>
       <updated>1385296330419</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="working on thumbs for carousel">
+      <created>1385311359718</created>
+      <updated>1385311359718</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2230523" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22572039" sideWeight="0.67099565" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -591,7 +592,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="gallery is functional" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on thumbs for carousel" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -612,21 +613,12 @@
     <MESSAGE value="gallery thumbnails done" />
     <MESSAGE value="added modal to gallery, needs styling" />
     <MESSAGE value="gallery is functional" />
+    <MESSAGE value="working on thumbs for carousel" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/views/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <marker date="1385311269913" expanded="true" signature="3425:3593" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/main.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="168" column="17" selection-start="4730" selection-end="4730" vertical-scroll-proportion="0.0">
@@ -636,18 +628,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1385294564775" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
@@ -686,18 +672,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.44183314">
-          <folding>
-            <marker date="1385294564775" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.44183314" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.13919821">
-          <folding />
-        </state>
+        <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.13919821" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap/bootstrap.css">
@@ -714,19 +694,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="9" selection-start="1612" selection-end="1612" vertical-scroll-proportion="0.33296213">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/galleryController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="22" selection-start="976" selection-end="976" vertical-scroll-proportion="0.0">
+        <state line="42" column="16" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="93" column="54" selection-start="3593" selection-end="3593" vertical-scroll-proportion="0.7344301">
+        <state line="73" column="46" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.35370153">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-            <marker date="1385311269913" expanded="true" signature="3425:3593" placeholder="..." />
           </folding>
         </state>
       </provider>
