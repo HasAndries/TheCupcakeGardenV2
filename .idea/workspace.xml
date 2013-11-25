@@ -2,13 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/gallery.html" afterPath="$PROJECT_DIR$/views/gallery.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/controllers/galleryController.js" afterPath="$PROJECT_DIR$/public/js/controllers/galleryController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="$PROJECT_DIR$/views/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/styles/main.less" afterPath="$PROJECT_DIR$/public/styles/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheCupcakeGardenV2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385409411442" ignored="false" />
+    <file path="/Dummy.txt" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385411758196" ignored="false" />
     <file path="/layout.swig" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382172750825" ignored="false" />
     <file path="/app.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385200427975" ignored="false" />
     <file path="/index.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382175681900" ignored="false" />
@@ -32,7 +32,7 @@
     <file path="$PROJECT_DIR$/node_modules/less-middleware/node_modules/less/test/browser/less/rootpath/urls.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382297533259" ignored="false" />
     <file path="$PROJECT_DIR$/node_modules/less-middleware/node_modules/less/test/browser/css/urls.css" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382297533259" ignored="false" />
     <file path="/style.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382297602712" ignored="false" />
-    <file path="/main.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385309577581" ignored="false" />
+    <file path="/main.less" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385412728171" ignored="false" />
     <file path="$PROJECT_DIR$/../TheCupcakeGarden/app/css/app.css" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382299886756" ignored="false" />
     <file path="/galleryController.js" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1385411096338" ignored="false" />
     <file path="$PROJECT_DIR$/../idp_ui/.idea/workspace.xml" changelist="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" time="1382563674860" ignored="false" />
@@ -69,40 +69,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="gallery.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/gallery.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="46" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.35370153">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="galleryController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/controllers/galleryController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="16" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="0" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/styles/bootstrap/bootstrap.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6443" column="21" selection-start="114000" selection-end="114019" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="139" column="21" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.3325893">
+              <folding>
+                <element signature="e#243#681#0" expanded="false" />
+                <element signature="e#694#1638#0" expanded="false" />
+                <element signature="e#1651#1674#0" expanded="false" />
+                <element signature="e#2146#2165#0" expanded="false" />
+                <element signature="e#2524#2611#0" expanded="false" />
+                <element signature="e#2621#2755#0" expanded="false" />
+                <element signature="e#2768#2795#0" expanded="false" />
+                <element signature="e#3043#3047#0" expanded="false" />
+                <element signature="e#3070#3091#0" expanded="false" />
+                <element signature="e#3118#3162#0" expanded="false" />
+                <element signature="e#3189#3209#0" expanded="false" />
+                <element signature="e#3480#3526#0" expanded="false" />
+                <element signature="e#3539#4626#0" expanded="false" />
+                <element signature="e#4642#4715#0" expanded="false" />
+                <element signature="e#4735#4875#0" expanded="false" />
+                <element signature="e#4906#4926#0" expanded="false" />
+                <element signature="e#4957#4976#0" expanded="false" />
+                <element signature="e#4995#5014#0" expanded="false" />
+                <element signature="e#5049#5084#0" expanded="false" />
+                <element signature="e#5103#5315#0" expanded="false" />
+                <element signature="e#5339#5372#0" expanded="false" />
+                <element signature="e#5397#5456#0" expanded="false" />
+                <element signature="e#5481#5527#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -136,11 +131,11 @@
         <option value="$PROJECT_DIR$/routes/home.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/gallery.js" />
-        <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="$PROJECT_DIR$/public/js/app.js" />
-        <option value="$PROJECT_DIR$/public/styles/main.less" />
         <option value="$PROJECT_DIR$/public/js/controllers/galleryController.js" />
         <option value="$PROJECT_DIR$/views/gallery.html" />
+        <option value="$PROJECT_DIR$/views/layout.html" />
+        <option value="$PROJECT_DIR$/public/styles/main.less" />
       </list>
     </option>
   </component>
@@ -250,135 +245,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="test_content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test_content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gallery" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Baby" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -523,13 +390,18 @@
       <created>1385311359718</created>
       <updated>1385311359718</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="gallery finished">
+      <created>1385411760172</created>
+      <updated>1385411760172</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -544,7 +416,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -592,7 +463,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="working on thumbs for carousel" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery finished" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -614,21 +485,19 @@
     <MESSAGE value="added modal to gallery, needs styling" />
     <MESSAGE value="gallery is functional" />
     <MESSAGE value="working on thumbs for carousel" />
+    <MESSAGE value="gallery finished" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/styles/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="168" column="17" selection-start="4730" selection-end="4730" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0" />
+        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1385412363118" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
@@ -670,11 +539,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="12" selection-start="2329" selection-end="2329" vertical-scroll-proportion="0.44183314" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.13919821" />
@@ -682,14 +546,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles/bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6443" column="21" selection-start="114000" selection-end="114019" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/styles/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="0" selection-start="5010" selection-end="5010" vertical-scroll-proportion="0.0">
+        <state line="6443" column="21" selection-start="114000" selection-end="114019" vertical-scroll-proportion="0.028312571">
           <folding />
         </state>
       </provider>
@@ -703,16 +560,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/js/controllers/galleryController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="16" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.0">
+        <state line="42" column="16" selection-start="1389" selection-end="1389" vertical-scroll-proportion="0.5558036">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="46" selection-start="2416" selection-end="2416" vertical-scroll-proportion="0.35370153">
+        <state line="67" column="30" selection-start="2042" selection-end="2042" vertical-scroll-proportion="0.0011778563">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="27" selection-start="1503" selection-end="1503" vertical-scroll-proportion="-16.411764">
+          <folding>
+            <marker date="1385412363118" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="42" selection-start="134" selection-end="151" vertical-scroll-proportion="-4.4117646">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/styles/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="139" column="21" selection-start="3431" selection-end="3431" vertical-scroll-proportion="0.3325893">
+          <folding>
+            <element signature="e#243#681#0" expanded="false" />
+            <element signature="e#694#1638#0" expanded="false" />
+            <element signature="e#1651#1674#0" expanded="false" />
+            <element signature="e#2146#2165#0" expanded="false" />
+            <element signature="e#2524#2611#0" expanded="false" />
+            <element signature="e#2621#2755#0" expanded="false" />
+            <element signature="e#2768#2795#0" expanded="false" />
+            <element signature="e#3043#3047#0" expanded="false" />
+            <element signature="e#3070#3091#0" expanded="false" />
+            <element signature="e#3118#3162#0" expanded="false" />
+            <element signature="e#3189#3209#0" expanded="false" />
+            <element signature="e#3480#3526#0" expanded="false" />
+            <element signature="e#3539#4626#0" expanded="false" />
+            <element signature="e#4642#4715#0" expanded="false" />
+            <element signature="e#4735#4875#0" expanded="false" />
+            <element signature="e#4906#4926#0" expanded="false" />
+            <element signature="e#4957#4976#0" expanded="false" />
+            <element signature="e#4995#5014#0" expanded="false" />
+            <element signature="e#5049#5084#0" expanded="false" />
+            <element signature="e#5103#5315#0" expanded="false" />
+            <element signature="e#5339#5372#0" expanded="false" />
+            <element signature="e#5397#5456#0" expanded="false" />
+            <element signature="e#5481#5527#0" expanded="false" />
           </folding>
         </state>
       </provider>
