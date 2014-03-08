@@ -1,0 +1,1 @@
+supervisor -e html,js --debug app.js

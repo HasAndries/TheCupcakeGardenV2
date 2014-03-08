@@ -14,7 +14,8 @@
         <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
-          <h2>{[thumbnail.name]}</h2>
+          <h2 class="visible-md">{[thumbnail.name]}</h2>
+          <h2 class="visible-lg">{[thumbnail.name]}</h2>
         </a>
       </div>
       {= if loop.index0 % 4 === 3 || loop.last =}

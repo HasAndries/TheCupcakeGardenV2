@@ -1,254 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\fonts\glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\fonts\glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\favicon.ico" afterPath="$PROJECT_DIR$/app/public/favicon.ico" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\fonts\SF_Cartoonist_Hand-webfont.eot" afterPath="$PROJECT_DIR$/app/public/fonts/SF_Cartoonist_Hand-webfont.eot" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\fonts\SF_Cartoonist_Hand-webfont.svg" afterPath="$PROJECT_DIR$/app/public/fonts/SF_Cartoonist_Hand-webfont.svg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\fonts\SF_Cartoonist_Hand-webfont.ttf" afterPath="$PROJECT_DIR$/app/public/fonts/SF_Cartoonist_Hand-webfont.ttf" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\fonts\SF_Cartoonist_Hand-webfont.woff" afterPath="$PROJECT_DIR$/app/public/fonts/SF_Cartoonist_Hand-webfont.woff" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\images\background.gif" afterPath="$PROJECT_DIR$/app/public/images/background.gif" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\images\logo_small.gif" afterPath="$PROJECT_DIR$/app/public/images/logo_small.gif" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\images\nav_footer.png" afterPath="$PROJECT_DIR$/app/public/images/nav_footer.png" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\images\textured_stripes.png" afterPath="$PROJECT_DIR$/app/public/images/textured_stripes.png" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\images\welcome.gif" afterPath="$PROJECT_DIR$/app/public/images/welcome.gif" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\app.js" afterPath="$PROJECT_DIR$/app/public/js/app.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\config.base.js" afterPath="$PROJECT_DIR$/app/public/js/config.base.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\config.js" afterPath="$PROJECT_DIR$/app/public/js/config.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\config\live.js" afterPath="$PROJECT_DIR$/app/public/js/config/live.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\controllers\galleryController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/galleryController.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\controllers\homeController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/homeController.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\controllers\layoutController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\directives\windowMonitor.js" afterPath="$PROJECT_DIR$/app/public/js/directives/windowMonitor.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\misc\prototypes.js" afterPath="$PROJECT_DIR$/app/public/js/misc/prototypes.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\js\services\displayService.js" afterPath="$PROJECT_DIR$/app/public/js/services/displayService.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\angular-ui\ui-bootstrap-tpls-0.7.0.js" afterPath="$PROJECT_DIR$/app/public/lib/angular-ui/ui-bootstrap-tpls-0.7.0.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\angular-ui\ui-bootstrap-tpls-0.7.0.min.js" afterPath="$PROJECT_DIR$/app/public/lib/angular-ui/ui-bootstrap-tpls-0.7.0.min.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\angular\angular.js" afterPath="$PROJECT_DIR$/app/public/lib/angular/angular.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\angular\angular.min.js" afterPath="$PROJECT_DIR$/app/public/lib/angular/angular.min.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\angular\angular.min.js.map" afterPath="$PROJECT_DIR$/app/public/lib/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\bootstrap\bootstrap.js" afterPath="$PROJECT_DIR$/app/public/lib/bootstrap/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\bootstrap\bootstrap.min.js" afterPath="$PROJECT_DIR$/app/public/lib/bootstrap/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\google.js" afterPath="$PROJECT_DIR$/app/public/lib/google.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\jquery\jquery-1.10.2.min.js" afterPath="$PROJECT_DIR$/app/public/lib/jquery/jquery-1.10.2.min.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\jquery\jquery-1.10.2.min.map" afterPath="$PROJECT_DIR$/app/public/lib/jquery/jquery-1.10.2.min.map" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\json2.js" afterPath="$PROJECT_DIR$/app/public/lib/json2.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\shim\es5-shim.js" afterPath="$PROJECT_DIR$/app/public/lib/shim/es5-shim.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\shim\es5-shim.map" afterPath="$PROJECT_DIR$/app/public/lib/shim/es5-shim.map" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\lib\shim\es5-shim.min.js" afterPath="$PROJECT_DIR$/app/public/lib/shim/es5-shim.min.js" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\bootstrap\bootstrap-theme.css" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\bootstrap\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\bootstrap\bootstrap.css" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\bootstrap\bootstrap.min.css" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/app/public/styles/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\styles\main.less" afterPath="$PROJECT_DIR$/app/public/styles/main.less" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\00.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/00.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Baby\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Baby/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Bachelorette\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Bachelorette/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Cakes\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Cakes/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Corporate\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Corporate/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flavours\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flavours/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flavours\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flavours/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flavours\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flavours/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flavours\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flavours/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\15.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/15.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\16.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/16.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\17.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/17.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\18.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/18.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\19.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/19.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\20.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/20.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\21.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/21.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Flowers\22.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Flowers/22.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Holiday\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Holiday/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\17.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/17.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\18.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/18.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\19.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/19.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\20.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/20.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\21.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/21.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\22.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/22.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\23.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/23.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\24.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/24.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\25.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/25.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\26.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/26.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\27.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/27.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\28.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/28.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\29.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/29.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\30.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/30.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\31.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/31.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\32.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/32.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Kids\33.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Kids/33.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\15.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/15.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\16.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/16.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\17.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/17.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\18.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/18.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\19.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/19.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\20.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/20.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\21.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/21.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\22.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/22.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\23.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/23.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\24.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/24.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\25.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/25.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\26.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/26.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\27.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/27.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\28.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/28.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\29.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/29.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\30.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/30.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\31.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/31.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\32.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/32.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\33.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/33.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\34.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/34.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\35.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/35.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\36.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/36.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\37.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/37.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\38.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/38.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\39.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/39.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\40.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/40.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\41.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/41.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\42.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/42.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\43.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/43.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\44.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/44.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Themes\45.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Themes/45.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\15.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/15.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\16.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/16.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Toppers\17.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Toppers/17.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\03.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/03.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\04.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/04.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\05.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/05.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\06.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/06.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\07.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/07.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\08.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/08.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\09.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/09.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\10.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/10.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\11.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/11.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\12.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/12.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\13.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/13.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\14.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/14.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\15.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/15.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\16.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/16.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\17.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/17.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\Wedding\18.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/Wedding/18.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\gallery\flavours.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/gallery/flavours.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\specials\01.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/specials/01.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\public\test_content\specials\02.jpg" afterPath="$PROJECT_DIR$/app/public/test_content/specials/02.jpg" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\views\gallery.html" afterPath="$PROJECT_DIR$/app/views/gallery.html" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\views\home.html" afterPath="$PROJECT_DIR$/app/views/home.html" />
-      <change type="MOVED" beforePath="C:\projects\TheCupcakeGardenV2\views\layout.html" afterPath="$PROJECT_DIR$/app/views/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TheCupcakeGardenV2.iml" afterPath="$PROJECT_DIR$/.idea/TheCupcakeGardenV2.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.js" afterPath="$PROJECT_DIR$/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="gallery is finished&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Node_js_Dependencies_for_TheCupcakeGardenV2.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/debug" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/styles/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/routes/pages.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/lib/angular-ui/ui-bootstrap-tpls-0.10.0.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/lib/angular-ui/ui-bootstrap-tpls-0.10.0.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/gallery.html" afterPath="$PROJECT_DIR$/app/views/gallery.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/styles/main.less" afterPath="$PROJECT_DIR$/app/public/styles/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheCupcakeGardenV2.iws" />
@@ -310,8 +78,8 @@
         <option value="$PROJECT_DIR$/run" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/app/public/styles/main.less" />
         <option value="$PROJECT_DIR$/app/views/layout.html" />
+        <option value="$PROJECT_DIR$/app/public/styles/main.less" />
         <option value="$PROJECT_DIR$/app/views/gallery.html" />
       </list>
     </option>
@@ -414,6 +182,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -436,81 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="styles" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -670,13 +382,18 @@
       <created>1385413067290</created>
       <updated>1385413067290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gallery is finished">
+      <created>1394267830435</created>
+      <updated>1394267830435</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -692,7 +409,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -721,7 +437,8 @@
     <MESSAGE value="working on thumbs for carousel" />
     <MESSAGE value="gallery finished" />
     <MESSAGE value="updated layout" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated layout" />
+    <MESSAGE value="gallery is finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="gallery is finished" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -925,13 +642,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="182" column="1" selection-start="4946" selection-end="4946" vertical-scroll-proportion="-7.354839" vertical-offset="3776" max-vertical-offset="5610">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="19" selection-start="1302" selection-end="1302" vertical-scroll-proportion="0.08618785" vertical-offset="692" max-vertical-offset="1980">
@@ -941,9 +651,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="18" selection-start="4762" selection-end="4762" vertical-scroll-proportion="-17.290323" vertical-offset="3248" max-vertical-offset="5698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="15" selection-start="1762" selection-end="1762" vertical-scroll-proportion="0.3160221" vertical-offset="924" max-vertical-offset="2508">
+        <state line="14" column="59" selection-start="555" selection-end="555" vertical-scroll-proportion="0.3403315" vertical-offset="0" max-vertical-offset="2530">
           <folding>
             <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#1;n#div#0;n#div#0;n#div#3;n#div#0;n#!!top" expanded="true" />
           </folding>
