@@ -28,8 +28,12 @@
   <![endif]-->
 </head>
 <body>
-<div class="container" window-monitor="mode-full" ng-controller="LayoutController">
+<div class="container" window-monitor="mode-full" size-monitor="sizeXs,sizeSm,sizeMd,sizeLg" ng-controller="LayoutController">
   <div id="mode-full" class="visible-md visible-lg"></div>
+  <div id="sizeXs" class="visible-xs"></div>
+  <div id="sizeSm" class="visible-sm"></div>
+  <div id="sizeMd" class="visible-md"></div>
+  <div id="sizeLg" class="visible-lg"></div>
   <div class="facebook">
     <a href="http://www.facebook.com/pages/The-Cupcake-Garden/135452913192655"></a>
   </div>
@@ -77,6 +81,7 @@
 <!-- SERVICES -->
 <script type="text/javascript" src="/js/services/displayService.js"></script>
 <!-- DIRECTIVES -->
+<script type="text/javascript" src="/js/directives/sizeMonitor.js"></script>
 <script type="text/javascript" src="/js/directives/windowMonitor.js"></script>
 <!-- CONTROLLERS -->
 <script type="text/javascript" src="/js/controllers/layoutController.js"></script>

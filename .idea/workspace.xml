@@ -2,24 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/barbie-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/barbie-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/barbie-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/buttercream-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/buttercream-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/buttercream-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cupcake.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/mini-1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/mini-2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/cakes/mini-3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/about-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cakes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/contact-us.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cupcakes.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/specials.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/controllers/cakesController.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/directives/sizeMonitor.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cakes.html" afterPath="$PROJECT_DIR$/app/views/cakes.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/js/services/displayService.js" afterPath="$PROJECT_DIR$/app/public/js/services/displayService.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout.html" afterPath="$PROJECT_DIR$/app/views/layout.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/styles/main.less" afterPath="$PROJECT_DIR$/app/public/styles/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/pages.js" afterPath="$PROJECT_DIR$/app/routes/pages.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TheCupcakeGardenV2.iws" />
@@ -46,7 +35,7 @@
       <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="306" column="25" selection-start="7076" selection-end="7076" vertical-scroll-proportion="-15.741936" vertical-offset="6244" max-vertical-offset="7370">
+            <state line="322" column="18" selection-start="7346" selection-end="7346" vertical-scroll-proportion="-22.096775" vertical-offset="6399" max-vertical-offset="7436">
               <folding />
             </state>
           </provider>
@@ -55,7 +44,7 @@
       <file leaf-file-name="cakes.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/cakes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="35" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.47276688" vertical-offset="468" max-vertical-offset="2310">
+            <state line="17" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.4074074" vertical-offset="0" max-vertical-offset="1320">
               <folding />
             </state>
           </provider>
@@ -98,7 +87,6 @@
         <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/run" />
         <option value="$PROJECT_DIR$/config.js" />
-        <option value="$PROJECT_DIR$/app/views/layout.html" />
         <option value="$PROJECT_DIR$/app/views/gallery.html" />
         <option value="$PROJECT_DIR$/app/views/about-us.html" />
         <option value="$PROJECT_DIR$/app/views/contact-us.html" />
@@ -106,7 +94,12 @@
         <option value="$PROJECT_DIR$/app/routes/pages.js" />
         <option value="$PROJECT_DIR$/app/views/cupcakes.html" />
         <option value="$PROJECT_DIR$/app/views/specials.html" />
+        <option value="$PROJECT_DIR$/app/public/js/services/displayService.js" />
+        <option value="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
         <option value="$PROJECT_DIR$/app/public/styles/main.less" />
+        <option value="$PROJECT_DIR$/app/public/js/controllers/cakesController.js" />
+        <option value="$PROJECT_DIR$/app/views/layout.html" />
+        <option value="$PROJECT_DIR$/app/public/js/directives/sizeMonitor.js" />
         <option value="$PROJECT_DIR$/app/views/cakes.html" />
       </list>
     </option>
@@ -289,7 +282,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -311,11 +304,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cakes" />
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TheCupcakeGardenV2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,11 +381,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\TheCupcakeGardenV2\app\public\js\directives" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\images" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\views" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\lib\angular-ui" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\styles\bootstrap" />
-      <recent name="C:\projects\TheCupcakeGardenV2\app\public\fonts" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\styles\fonts" />
@@ -484,13 +529,18 @@
       <created>1394268177949</created>
       <updated>1394268177949</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished specials and cakes pages">
+      <created>1394281971276</created>
+      <updated>1394281971276</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -506,7 +556,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -537,7 +586,8 @@
     <MESSAGE value="updated layout" />
     <MESSAGE value="gallery is finished" />
     <MESSAGE value="fixed gallery h2&#10;added missing files" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed gallery h2&#10;added missing files" />
+    <MESSAGE value="finished specials and cakes pages" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished specials and cakes pages" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -586,11 +636,6 @@
     <entry file="file://$PROJECT_DIR$/app/public/test_content/gallery/Baby/00.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="94" selection-start="309" selection-end="309" vertical-scroll-proportion="0.13919821" vertical-offset="0" max-vertical-offset="0" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
@@ -663,18 +708,6 @@
     <entry file="file://$PROJECT_DIR$/app/public/styles/bootstrap/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5187" column="3" selection-start="109576" selection-end="109576" vertical-scroll-proportion="0.3514957" vertical-offset="113785" max-vertical-offset="127402">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/js/directives/windowMonitor.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="26" selection-start="419" selection-end="419" vertical-scroll-proportion="0.23182297" vertical-offset="0" max-vertical-offset="949" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/js/controllers/galleryController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="613" selection-end="613" vertical-scroll-proportion="0.44046363" vertical-offset="0" max-vertical-offset="1276">
           <folding />
         </state>
       </provider>
@@ -764,15 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="10" selection-start="1834" selection-end="1834" vertical-scroll-proportion="0.45082873" vertical-offset="692" max-vertical-offset="1980">
-          <folding>
-            <marker date="1394267711707" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="26" selection-start="368" selection-end="368" vertical-scroll-proportion="0.2917127" vertical-offset="0" max-vertical-offset="2530">
@@ -789,13 +813,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="306" column="25" selection-start="7076" selection-end="7076" vertical-scroll-proportion="-15.741936" vertical-offset="6244" max-vertical-offset="7370">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/images/cakes/mini-3.jpg">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -806,9 +823,95 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/services/displayService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="42" selection-start="703" selection-end="703" vertical-scroll-proportion="0.39409906" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/controllers/layoutController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="26" selection-start="273" selection-end="273" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="18" selection-start="7346" selection-end="7346" vertical-scroll-proportion="-22.096775" vertical-offset="6399" max-vertical-offset="7436">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/controllers/galleryController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="1276">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/controllers/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="1" selection-start="0" selection-end="72" vertical-scroll-proportion="0.06954689" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/config.base.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="153" selection-end="153" vertical-scroll-proportion="0.046364594" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/directives/windowMonitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="59" selection-start="279" selection-end="286" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/controllers/cakesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="14" selection-start="52" selection-end="52" vertical-scroll-proportion="0.023182297" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/directives/sizeMonitor.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="367" selection-end="367" vertical-scroll-proportion="0.20864068" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="7" selection-start="1014" selection-end="1014" vertical-scroll-proportion="0.19779006" vertical-offset="437" max-vertical-offset="2090">
+          <folding>
+            <marker date="1394285457379" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="223" selection-end="223" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cakes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="35" selection-start="1241" selection-end="1241" vertical-scroll-proportion="0.47276688" vertical-offset="468" max-vertical-offset="2310">
+        <state line="17" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.4074074" vertical-offset="0" max-vertical-offset="1320">
           <folding />
         </state>
       </provider>

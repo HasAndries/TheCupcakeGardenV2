@@ -11,6 +11,13 @@ tcgServices.factory('displayService', ['$rootScope', function ($rootScope) {
       $rootScope.$broadcast('display.mode', current);
       return this;
     };
+    //---------- sizes ----------
+    this.sizes = function (current) {
+      if (arguments.length == 0) return $rootScope.display.sizes;
+      _this.display.sizes = $rootScope.display.sizes = current;
+      $rootScope.$broadcast('display.sizes', current);
+      return this;
+    };
   }
 
   return new DisplayService();
