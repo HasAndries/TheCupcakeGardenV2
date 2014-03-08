@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/controllers/cakesController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/js/directives/sizeMonitor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cakes.html" afterPath="$PROJECT_DIR$/app/views/cakes.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/js/services/displayService.js" afterPath="$PROJECT_DIR$/app/public/js/services/displayService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout.html" afterPath="$PROJECT_DIR$/app/views/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
+    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="added proper size detection&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/public/images/facebook-logo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/contact-us.html" afterPath="$PROJECT_DIR$/app/views/contact-us.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/styles/main.less" afterPath="$PROJECT_DIR$/app/public/styles/main.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -32,19 +28,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.less" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main.less" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="18" selection-start="7346" selection-end="7346" vertical-scroll-proportion="-22.096775" vertical-offset="6399" max-vertical-offset="7436">
+            <state line="367" column="36" selection-start="8226" selection-end="8226" vertical-scroll-proportion="0.4165746" vertical-offset="7697" max-vertical-offset="8690">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cakes.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/cakes.html">
+      <file leaf-file-name="contact-us.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/contact-us.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.4074074" vertical-offset="0" max-vertical-offset="1320">
+            <state line="27" column="26" selection-start="1282" selection-end="1292" vertical-scroll-proportion="-19.161291" vertical-offset="0" max-vertical-offset="880">
               <folding />
             </state>
           </provider>
@@ -89,18 +85,18 @@
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/app/views/gallery.html" />
         <option value="$PROJECT_DIR$/app/views/about-us.html" />
-        <option value="$PROJECT_DIR$/app/views/contact-us.html" />
         <option value="$PROJECT_DIR$/config.json" />
         <option value="$PROJECT_DIR$/app/routes/pages.js" />
         <option value="$PROJECT_DIR$/app/views/cupcakes.html" />
         <option value="$PROJECT_DIR$/app/views/specials.html" />
         <option value="$PROJECT_DIR$/app/public/js/services/displayService.js" />
         <option value="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
-        <option value="$PROJECT_DIR$/app/public/styles/main.less" />
         <option value="$PROJECT_DIR$/app/public/js/controllers/cakesController.js" />
         <option value="$PROJECT_DIR$/app/views/layout.html" />
         <option value="$PROJECT_DIR$/app/public/js/directives/sizeMonitor.js" />
         <option value="$PROJECT_DIR$/app/views/cakes.html" />
+        <option value="$PROJECT_DIR$/app/views/contact-us.html" />
+        <option value="$PROJECT_DIR$/app/public/styles/main.less" />
       </list>
     </option>
   </component>
@@ -282,85 +278,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,8 +299,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\projects\TheCupcakeGardenV2\app\public\js\directives" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\images" />
+      <recent name="C:\projects\TheCupcakeGardenV2\app\public\js\directives" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\views" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\lib\angular-ui" />
       <recent name="C:\projects\TheCupcakeGardenV2\app\public\styles\bootstrap" />
@@ -533,7 +451,11 @@
       <created>1394281971276</created>
       <updated>1394281971276</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added proper size detection">
+      <created>1394285824633</created>
+      <updated>1394285824633</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -587,7 +509,8 @@
     <MESSAGE value="gallery is finished" />
     <MESSAGE value="fixed gallery h2&#10;added missing files" />
     <MESSAGE value="finished specials and cakes pages" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished specials and cakes pages" />
+    <MESSAGE value="added proper size detection" />
+    <option name="LAST_COMMIT_MESSAGE" value="added proper size detection" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -738,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/contact-us.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="139" selection-end="139" vertical-scroll-proportion="0.14379086" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="138" selection-end="138" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="949">
@@ -837,13 +753,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="18" selection-start="7346" selection-end="7346" vertical-scroll-proportion="-22.096775" vertical-offset="6399" max-vertical-offset="7436">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/public/js/controllers/galleryController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="16" selection-start="164" selection-end="164" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="1276">
@@ -911,7 +820,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/cakes.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="28" selection-start="579" selection-end="579" vertical-scroll-proportion="0.4074074" vertical-offset="0" max-vertical-offset="1320">
+        <state line="14" column="8" selection-start="157" selection-end="502" vertical-scroll-proportion="0.33551198" vertical-offset="0" max-vertical-offset="1320">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact-us.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="26" selection-start="1282" selection-end="1292" vertical-scroll-proportion="-19.161291" vertical-offset="0" max-vertical-offset="880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/styles/main.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="367" column="36" selection-start="8226" selection-end="8226" vertical-scroll-proportion="0.4165746" vertical-offset="7697" max-vertical-offset="8690">
           <folding />
         </state>
       </provider>
