@@ -86,5 +86,45 @@ function Pages(app, config) {
     }
     res.send(pictures)
   });
+  app.get('/cupcakes', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'cupcakes';
+    res.render('cupcakes', renderObjects);
+  });
+  app.get('/specials', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'specials';
+    //gather thumbnails
+    var specials = [];
+    var specialsPublicPath = config['specialsPublicPath'];
+    var specialsPath = config['specialsPath'];
+
+    var fs = require('fs');
+    var items = fs.readdirSync(specialsPath);
+    var index;
+    for (index in items) {
+      var name = items[index];
+      var stat = fs.statSync([specialsPath, name].join('/'));
+      if (stat.isFile())
+        specials.push({name: name, path: [specialsPublicPath, name].join('/')});
+    }
+    renderObjects.specials = specials;
+    res.render('specials', renderObjects);
+  });
+  app.get('/cakes', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'cakes';
+    res.render('cakes', renderObjects);
+  });
+  app.get('/contact-us', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'contact-us';
+    res.render('contact-us', renderObjects);
+  });
+  app.get('/about-us', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'about-us';
+    res.render('about-us', renderObjects);
+  });
 }
 module.exports = Pages;

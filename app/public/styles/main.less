@@ -23,6 +23,10 @@ html, body {
   background-image: -ms-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
   background-image: -o-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
   background-image: linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  color: #333333;
+}
+h2{
+  color: #616362;
 }
 
 .container {
@@ -102,7 +106,7 @@ html, body {
 .content {
   margin-left: 0;
   padding-top: 10px;
-  min-height: 486px;
+  min-height: 560px;
 }
 
 .content.full {
@@ -236,14 +240,86 @@ a.thumbnail:hover {
 /********************************************************
 CUPCAKES
 ********************************************************/
+.content.cupcakes {
+  background-color: #ffffff;
+}
+.content.cupcakes.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.cupcakes.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
 
+.content.cupcakes .picture img{
+  margin: auto;
+}
+
+.content.cupcakes .info {
+  margin-top: 20px;
+}
 /********************************************************
 SPECIALS
 ********************************************************/
+.content.specials {
+  background-color: #ffffff;
+}
+.content.specials.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.specials.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.content.specials .special{
+  border-bottom: 1px solid #ededed;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+}
+
+.content.specials .special img{
+  border-radius: 2px;
+  margin: auto;
+}
 
 /********************************************************
 CAKES
 ********************************************************/
+.content.cakes {
+  background-color: #ffffff;
+}
+.content.cakes.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.cakes.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.content.cakes h3 {
+  color: @blue;
+}
+
+.content.cakes .section {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4px;
+  padding-bottom: 24px;
+}
+.content.cakes img{
+  border-radius: 2px;
+  box-shadow: 0 0 2px #aaa;
+}
+.content.cakes .col-xs-4{
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.content.cakes .visible-xs img{
+  width: 100%;
+}
 
 /********************************************************
 CONTACT-US
