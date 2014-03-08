@@ -3,11 +3,11 @@
 
   },
   "development": {
-    "galleryPath": "./public/test_content/gallery",
+    "galleryPath": "./app/public/test_content/gallery",
     "galleryPublicPath": "/test_content/gallery"
   },
   "production": {
-    "galleryPath": "./public/content/gallery",
+    "galleryPath": "./app/public/content/gallery",
     "galleryPublicPath": "/content/gallery"
   }
 }

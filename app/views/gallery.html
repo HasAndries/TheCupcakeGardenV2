@@ -11,7 +11,7 @@
     <div class="row">
       {= endif =}
       <div class="col-md-3">
-        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target="#picturesModal">
+        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -28,7 +28,7 @@
     <div class="row">
       {= endif =}
       <div class="col-sm-4">
-        <a class="thumbnail">
+        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -45,7 +45,7 @@
     <div class="row">
       {= endif =}
       <div class="col-xs-6">
-        <a class="thumbnail">
+        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -57,8 +57,8 @@
     {= endfor =}
   </div>
 
-  <div class="modal fade" id="picturesModal" tabindex="-1" role="dialog" aria-labelledby="picturesModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+  <div class="modal fade picturesModal" tabindex="-1" role="dialog" aria-labelledby="picturesModalLabel" aria-hidden="true">
+    <div class="modal-dialog {{ displayMode }}">
       <div class="modal-content">
         <div class="modal-header">
           <a href="" class="close glyphicon glyphicon-remove" data-dismiss="modal" aria-hidden="true"></a>
@@ -69,7 +69,7 @@
           <div ng-show="pictures.busy">Loading...</div>
           <div ng-show="pictures.error">There was a problem loading the Gallery. Please try again later.</div>
           <div ng-show="!pictures.busy">
-            <div id="galleryCarousel" class="carousel slide" data-ride="carousel">
+            <div ng-if="displayMode == 'full'" id="galleryCarousel" class="carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#galleryCarousel" data-slide-to="{{$index}}" ng-repeat="item in pictures.items"></li>
@@ -105,6 +105,5 @@
     </div>
     <!-- /.modal-dialog -->
   </div>
-  <!-- /.modal -->
 </div>
 {= endblock =}

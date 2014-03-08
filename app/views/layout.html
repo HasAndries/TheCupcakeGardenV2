@@ -34,10 +34,7 @@
     <a href="http://www.facebook.com/pages/The-Cupcake-Garden/135452913192655"></a>
   </div>
   <div class="row">
-    <div class="main full col-md-10 hidden-xs hidden-sm {[ pageName ]}">
-      {= block content =}{= endblock =}
-    </div>
-    <div class="col-md-2 nav {{ displayMode }}">
+    <div ng-if="displayMode=='mini'" class="col-md-2 nav {{ displayMode }}">
       <div class="navLogo">
         <a href="/gallery"><img src="images/logo_small.gif"/></a>
       </div>
@@ -48,8 +45,21 @@
         <img src="images/nav_footer.png"/>
       </div>
     </div>
-    <div class="main col-md-10 visible-xs visible-sm">
+
+    <div class="main {{displayMode}} col-md-10 {[ pageName ]}">
       {= block content =}{= endblock =}
+    </div>
+
+    <div ng-if="displayMode=='full'" class="col-md-2 nav {{ displayMode }}">
+      <div class="navLogo">
+        <a href="/gallery"><img src="images/logo_small.gif"/></a>
+      </div>
+      {= for menuItem in menuItems =}
+      <a class="item" href="{[menuItem.link]}"><h1>{[menuItem.name]}</h1></a>
+      {= endfor =}
+      <div class="navFooter">
+        <img src="images/nav_footer.png"/>
+      </div>
     </div>
   </div>
 </div>

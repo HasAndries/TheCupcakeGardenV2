@@ -1,16 +1,21 @@
 {
-  "name": "application-name",
+  "name": "TheCupcakeGardenV2",
   "version": "0.0.1",
   "private": true,
+  "main": "app.js",
   "scripts": {
     "start": "supervisor -e html,js app.js"
   },
+  "repository": "https://github.com/HasAndries/TheCupcakeGardenV2.git",
   "dependencies": {
     "less": "1.x",
     "express": "3.x",
     "consolidate": "0.9.x",
     "swig": "1.x",
     "less-middleware": "*",
-    "whet.extend": "0.9.x"
+    "whet.extend": "0.9.x",
+    "node.extend": "1.x",
+    "grunt": "0.4.x",
+    "grunt-contrib-copy": "0.5.0"
   }
 }

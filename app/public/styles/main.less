@@ -177,24 +177,29 @@ a.thumbnail:hover {
   text-decoration: none;
 }
 
-#picturesModal .modal-dialog {
+//---------- modal ----------
+.modal-dialog.full {
   width: 1020px;
 }
+.modal-dialog.mini {
+  margin: 0px;
+  width: 100%;
+}
 
-#picturesModal .modal-header {
+.picturesModal .modal-header {
   color: @blue;
 }
 
-#galleryCarousel {
+.picturesModal #galleryCarousel {
   width: 960px;
 }
 
-#galleryCarousel .carousel-inner {
+.picturesModal #galleryCarousel .carousel-inner {
   margin: auto;
   width: 800px;
 }
 
-.carousel-button {
+.picturesModal .carousel-button {
   border: 1px solid @blue;
   color: @blue;
   display: block;
@@ -209,17 +214,17 @@ a.thumbnail:hover {
   width: 80px;
 }
 
-.carousel-button.left {
+.picturesModal .carousel-button.left {
   border-radius: 4px 0 0 4px;
 }
 
-.carousel-button.right {
+.picturesModal .carousel-button.right {
   border-radius: 0 4px 4px 0;
   right: 0;
   left: auto;
 }
 
-.carousel-button:hover {
+.picturesModal .carousel-button:hover {
   border: 1px solid @pink;
   color: @pink;
 }
