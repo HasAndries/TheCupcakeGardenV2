@@ -8,6 +8,7 @@ tcgDirectives.directive('sizeMonitor', ['$window', '$timeout', 'displayService',
         var output = {};
         for(var ct=0;ct<ids.length;ct++){
           output[ids[ct]] = $('#' + ids[ct]).css('display') != 'none';
+          if (output[ids[ct]]) output['displaySize'] = ids[ct];
         }
         return output;
       }

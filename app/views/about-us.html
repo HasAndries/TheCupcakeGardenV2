@@ -5,6 +5,41 @@
 
 {= block content =}
 <div class="content about-us {{ displayMode }}">
-
+  <div class="row">
+    <div class="col-md-12">
+      <h2>About Us</h2>
+      The Cupcake Garden brings together two baking companies and four creative partners.
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3 picture visible-md visible-lg">
+      <img src="images/cupcake.png" alt/>
+    </div>
+    <div ng-class="displayMode=='full' && 'col-md-9' || 'col-md-12'">
+      <h3>I Love Baking</h3>
+      I Love Baking, started by mother and daughter team, began in January 2011 specializing in Sugar Cookies, Rusks and
+      Preserves. Lana van Rensburg and her mother Lauretta le Roux have a great love for food, the making of it and the
+      art involved.
+      <br><br>
+      They have supplied numerous corporate companies, offered occasional gifts and wedding favours.
+      <br><br>
+      “My mom and I have a very close relationship - we love every minute being in the kitchen, baking and having tons
+      of fun!” – Lana van Rensburg.
+    </div>
+    <div class="col-md-12">
+      <h3>Vanilla Ribbon Cupcakes</h3>
+      Vanilla Ribbon Cupcakes specializes in custom made and delicious cupcakes decorated to suit individual needs.
+      Operating since 2008, Vanilla Ribbon Cupcakes have provided beautifully decorated cupcakes for various occasions,
+      including celebrity clothing launches, magazine shoots, weddings, corporate functions, birthdays, baby showers and
+      many more.
+      <br><br>
+      Another mother a daughter team, Pat Pirie and Kirby Purchase, ensure that love and passion go into everything that
+      they create.
+      <h3>The Cupcake Garden</h3>
+      With the joining of two mothers and two daughters, The Cupcake Garden brings together four passionate and creative
+      friends who put their love into everything they make. Custom cupcakes are our specialty, but check out our gallery
+      and Facebook page to see what else we can do.
+    </div>
+  </div>
 </div>
 {= endblock =}
