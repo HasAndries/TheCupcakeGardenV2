@@ -40,7 +40,7 @@ function Pages(app, config) {
     //gather thumbnails
     var thumbnails = [];
     var galleryPublicPath = config['galleryPublicPath'];
-    var galleryPath = path.join(process.env.PWD, config['galleryPath']);
+    var galleryPath = path.join(__dirname, '../..', config['galleryPath']);
 
     var fs = require('fs');
     var items = fs.readdirSync(galleryPath);
@@ -103,7 +103,7 @@ function Pages(app, config) {
     //gather thumbnails
     var specials = [];
     var specialsPublicPath = config['specialsPublicPath'];
-    var specialsPath = path.join(process.env.PWD, config['specialsPath']);
+    var specialsPath = path.join(__dirname, '../..', config['specialsPath']);
 
     var fs = require('fs');
     var items = fs.readdirSync(specialsPath);
