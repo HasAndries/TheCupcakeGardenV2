@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layout.html" afterPath="$PROJECT_DIR$/app/views/layout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" afterPath="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    <list default="true" id="d7f03a18-e433-4fdc-b9b4-447a5f6e067d" name="Default" comment="added hack to remove partial rendering&#10;">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/AndriesC.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/hasandries.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Node_js_Dependencies_for_TheCupcakeGardenV2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/app_js.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\TheCupcakeGardenV2.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\codeStyleSettings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\jsLibraryMappings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\routes\gallery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\routes\home.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\projects\TheCupcakeGardenV2\routes\layout.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.json" afterPath="$PROJECT_DIR$/config.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/routes/pages.js" afterPath="$PROJECT_DIR$/app/routes/pages.js" />
     </list>
     <ignored path="TheCupcakeGardenV2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,15 +43,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="91" column="32" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.9027624" vertical-offset="1185" max-vertical-offset="2200">
+            <state line="92" column="9" selection-start="3815" selection-end="3815" vertical-scroll-proportion="-27.064516" vertical-offset="1185" max-vertical-offset="2200">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <marker date="1394371158328" expanded="true" signature="624:1001" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="462">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -50,18 +75,27 @@
         </entry>
       </file>
       <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/public/js/app.js">
+        <entry file="file://$PROJECT_DIR$/app/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242">
+            <state line="20" column="44" selection-start="548" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="990">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="pages.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/routes/pages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="111" column="30" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="2021" max-vertical-offset="3234">
+            <state line="105" column="48" selection-start="3646" selection-end="3646" vertical-scroll-proportion="0.5827187" vertical-offset="1757" max-vertical-offset="3234">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="484">
               <folding />
             </state>
           </provider>
@@ -102,7 +136,6 @@
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/app/app.js" />
         <option value="$PROJECT_DIR$/run" />
         <option value="$PROJECT_DIR$/config.js" />
         <option value="$PROJECT_DIR$/app/public/js/services/displayService.js" />
@@ -116,10 +149,12 @@
         <option value="$PROJECT_DIR$/app/views/gallery.html" />
         <option value="$PROJECT_DIR$/app/public/styles/main.less" />
         <option value="$PROJECT_DIR$/app/views/about-us.html" />
-        <option value="$PROJECT_DIR$/config.json" />
-        <option value="$PROJECT_DIR$/app/routes/pages.js" />
         <option value="$PROJECT_DIR$/app/public/js/controllers/layoutController.js" />
         <option value="$PROJECT_DIR$/app/views/layout.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config.json" />
+        <option value="$PROJECT_DIR$/app/app.js" />
+        <option value="$PROJECT_DIR$/app/routes/pages.js" />
       </list>
     </option>
   </component>
@@ -203,64 +238,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TheCupcakeGardenV2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,7 +543,15 @@
       <created>1394370211650</created>
       <updated>1394370211650</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="added hack to remove partial rendering">
+      <created>1394371196987</created>
+      <updated>1394371196987</updated>
+    </task>
+    <task id="LOCAL-00020" summary="added content">
+      <created>1394372066657</created>
+      <updated>1394372066657</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -625,7 +610,9 @@
     <MESSAGE value="site content complete" />
     <MESSAGE value="fixed mobile issues" />
     <MESSAGE value="fixed directory listing" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed directory listing" />
+    <MESSAGE value="added hack to remove partial rendering" />
+    <MESSAGE value="added content" />
+    <option name="LAST_COMMIT_MESSAGE" value="added content" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="XDebuggerManager">
@@ -664,13 +651,6 @@
         <state line="0" column="0" selection-start="0" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="924" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/debug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="11" selection-start="321" selection-end="321" vertical-scroll-proportion="0.25500527" vertical-offset="0" max-vertical-offset="949">
@@ -681,21 +661,6 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="21" selection-start="55" selection-end="55" vertical-scroll-proportion="0.04793028" vertical-offset="0" max-vertical-offset="918" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/layout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="332" selection-end="332" vertical-scroll-proportion="0.25500527" vertical-offset="0" max-vertical-offset="949" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="36" selection-start="73" selection-end="186" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="949" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/gallery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="20" selection-start="1266" selection-end="1783" vertical-scroll-proportion="0.8377239" vertical-offset="437" max-vertical-offset="1386" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config.js">
@@ -880,30 +845,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="27" selection-start="269" selection-end="269" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/production">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="49" selection-start="49" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="949">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="14" selection-end="14" vertical-scroll-proportion="0.04793028" vertical-offset="0" max-vertical-offset="918">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/routes/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="111" column="30" selection-start="3764" selection-end="3764" vertical-scroll-proportion="0.0" vertical-offset="2021" max-vertical-offset="3234">
           <folding />
         </state>
       </provider>
@@ -915,21 +859,56 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/public/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="223" selection-end="223" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="242">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="91" column="32" selection-start="3805" selection-end="3805" vertical-scroll-proportion="0.9027624" vertical-offset="1185" max-vertical-offset="2200">
+        <state line="92" column="9" selection-start="3815" selection-end="3815" vertical-scroll-proportion="-27.064516" vertical-offset="1185" max-vertical-offset="2200">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#2;n#div#6;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <marker date="1394371158328" expanded="true" signature="624:1001" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/debug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="50" selection-end="50" vertical-scroll-proportion="-7.04" vertical-offset="0" max-vertical-offset="462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="388" selection-end="388" vertical-scroll-proportion="-9.225806" vertical-offset="0" max-vertical-offset="484">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/public/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="8" selection-start="223" selection-end="223" vertical-scroll-proportion="0.115911484" vertical-offset="0" max-vertical-offset="949">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="44" selection-start="548" selection-end="557" vertical-scroll-proportion="0.0" vertical-offset="41" max-vertical-offset="990">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="105" column="48" selection-start="3646" selection-end="3646" vertical-scroll-proportion="0.5827187" vertical-offset="1757" max-vertical-offset="3234">
+          <folding />
         </state>
       </provider>
     </entry>

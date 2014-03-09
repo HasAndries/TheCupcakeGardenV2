@@ -3,15 +3,15 @@
 
   },
   "development": {
-    "galleryPath": "./app/public/test_content/gallery",
+    "galleryPath": "app/public/test_content/gallery",
     "galleryPublicPath": "/test_content/gallery",
-    "specialsPath": "./app/public/test_content/specials",
+    "specialsPath": "app/public/test_content/specials",
     "specialsPublicPath": "/test_content/specials"
   },
   "production": {
-    "galleryPath": "./app/public/content/gallery",
+    "galleryPath": "app/public/content/gallery",
     "galleryPublicPath": "/content/gallery",
-    "specialsPath": "./app/public/content/specials",
+    "specialsPath": "app/public/content/specials",
     "specialsPublicPath": "/content/specials"
   }
 }
