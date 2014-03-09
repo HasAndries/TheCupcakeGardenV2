@@ -74,7 +74,7 @@ function Pages(app, config) {
   app.get('/gallery/:folder', function (req, res) {
     var pictures = [];
     var folderPublicPath = [config['galleryPublicPath'], req.params.folder].join('/');
-    var folderPath = [config['galleryPath'], req.params.folder].join('/');
+    var folderPath = path.join(__dirname, '../..', config['galleryPath'], req.params.folder);
 
     var fs = require('fs');
     var items = fs.readdirSync(folderPath);
