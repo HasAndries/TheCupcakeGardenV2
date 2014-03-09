@@ -83,7 +83,7 @@ function Pages(app, config) {
     for (index in items) {
       var name = items[index];
       var stat = fs.statSync([folderPath, name].join('/'));
-      if (stat.isFile())
+      if (stat.isFile() && name.length-name.indexOf('.') == 4)
         pictures.push({name: name, path: [folderPublicPath, name].join('/')});
     }
     res.send(pictures)
@@ -111,7 +111,7 @@ function Pages(app, config) {
     for (index in items) {
       var name = items[index];
       var stat = fs.statSync([specialsPath, name].join('/'));
-      if (stat.isFile())
+      if (stat.isFile() && name.length-name.indexOf('.') == 4)
         specials.push({name: name, path: [specialsPublicPath, name].join('/')});
     }
     renderObjects.specials = specials;
