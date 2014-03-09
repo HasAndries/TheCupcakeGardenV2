@@ -28,12 +28,14 @@ function Pages(app, config) {
   app.get('/', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'home';
+    renderObjects.title = '';
     res.render('home', renderObjects);
   });
   //---------- /gallery ----------
   app.get('/gallery', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'gallery';
+    renderObjects.title = ' - Gallery';
 
     //gather thumbnails
     var thumbnails = [];
@@ -89,11 +91,15 @@ function Pages(app, config) {
   app.get('/cupcakes', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'cupcakes';
+    renderObjects.title = ' - Cupcakes';
+
     res.render('cupcakes', renderObjects);
   });
   app.get('/specials', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'specials';
+    renderObjects.title = ' - Specials';
+
     //gather thumbnails
     var specials = [];
     var specialsPublicPath = config['specialsPublicPath'];
@@ -114,16 +120,22 @@ function Pages(app, config) {
   app.get('/cakes', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'cakes';
+    renderObjects.title = ' - Cakes';
+
     res.render('cakes', renderObjects);
   });
   app.get('/contact-us', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'contact-us';
+    renderObjects.title = ' - Contact Us';
+
     res.render('contact-us', renderObjects);
   });
   app.get('/about-us', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'about-us';
+    renderObjects.title = ' - About Us';
+
     res.render('about-us', renderObjects);
   });
 }
