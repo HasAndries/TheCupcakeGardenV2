@@ -6,4 +6,6 @@ function LayoutController($scope, $rootScope){
   $rootScope.$on('display.sizes', function(event, val){
     $.extend($scope, val);
   });
+
+
 }

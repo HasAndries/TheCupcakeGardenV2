@@ -39,7 +39,7 @@
     <a href="http://www.facebook.com/pages/The-Cupcake-Garden/135452913192655"></a>
   </div>
   <div class="row">
-    <div ng-if="displayMode=='mini'" class="col-md-2 nav {{ displayMode }}">
+    <div ng-if="displayMode=='mini'" class="col-md-2 nav {{ displayMode }}" style="display: none">
       <div class="navLogo">
         <a href="/gallery"><img src="images/logo_small.gif"/></a>
       </div>
@@ -55,7 +55,7 @@
       {= block content =}{= endblock =}
     </div>
 
-    <div ng-if="displayMode=='full'" class="col-md-2 nav {{ displayMode }}">
+    <div ng-if="displayMode=='full'" class="col-md-2 nav {{ displayMode }}" style="display: none">
       <div class="navLogo">
         <a href="/gallery"><img src="images/logo_small.gif"/></a>
       </div>
@@ -87,5 +87,9 @@
 <!-- CONTROLLERS -->
 <script type="text/javascript" src="/js/controllers/layoutController.js"></script>
 <script type="text/javascript" src="/js/controllers/{[ pageName ]}Controller.js"></script>
+
+<script type="text/javascript">
+  $('.nav').removeAttr('style');
+</script>
 </body>
 </html>
