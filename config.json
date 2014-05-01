@@ -1,6 +1,9 @@
 {
-  "base": {
-
+  "andries": {
+    "galleryPath": "app/public/content/gallery",
+    "galleryPublicPath": "/content/gallery",
+    "specialsPath": "app/public/content/specials",
+    "specialsPublicPath": "/content/specials"
   },
   "development": {
     "galleryPath": "app/public/content/gallery",

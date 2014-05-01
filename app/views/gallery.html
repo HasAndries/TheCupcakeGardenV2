@@ -78,6 +78,7 @@
 
               <!-- Wrapper for slides -->
               <div class="carousel-inner">
+                <div class="item active" ng-if="!pictures.items.length"></div>
                 <div class="item" ng-class="$index == 0 && 'active'" ng-repeat="item in pictures.items" data-slide="next" data-target="#galleryCarousel">
                   <img ng-src="{{item.path}}" alt="{{item.name}}" style="margin:auto;">
                 </div>
