@@ -14,8 +14,8 @@
         <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
-          <h2 class="visible-md">{[thumbnail.name]}</h2>
-          <h2 class="visible-lg">{[thumbnail.name]}</h2>
+          <h2 class="visible-md"><span>{[thumbnail.name.substring(0,1)]}</span>{[thumbnail.name.substring(1)]}</h2>
+          <h2 class="visible-lg"><span>{[thumbnail.name.substring(0,1)]}</span>{[thumbnail.name.substring(1)]}</h2>
         </a>
       </div>
       {= if loop.index0 % 4 === 3 || loop.last =}
@@ -32,7 +32,7 @@
         <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
-          <h2>{[thumbnail.name]}</h2>
+          <h2><span>{[thumbnail.name.substring(0,1)]}</span>{[thumbnail.name.substring(1)]}</h2>
         </a>
       </div>
       {= if loop.index0 % 3 === 2 || loop.last =}
@@ -49,7 +49,7 @@
         <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
-          <h2>{[thumbnail.name]}</h2>
+          <h2><span>{[thumbnail.name.substring(0,1)]}</span>{[thumbnail.name.substring(1)]}</h2>
         </a>
       </div>
       {= if loop.index0 % 2 === 1 || loop.last =}
