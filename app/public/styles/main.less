@@ -197,11 +197,17 @@ GALLERY
 .thumbnail h2 {
   display: block;
   text-align: center;
-  text-transform: capitalize;
+  font-variant: small-caps;
+  //text-transform: capitalize;
+  //text-transform: uppercase;
+}
+
+.thumbnail h2.visible-lg {
+  font-size: 30px;
 }
 
 .thumbnail h2.visible-md {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .content.gallery.sizeSm .thumbnail h2 {
@@ -221,7 +227,7 @@ a.thumbnail:hover {
 
 //---------- modal ----------
 .modal-dialog.full {
-  width: 1020px;
+  width: 842px;
 }
 .modal-dialog.mini {
   margin: 0px;
@@ -239,20 +245,24 @@ a.thumbnail:hover {
   font-size: 48px;
 }
 
-.picturesModal .modal-header {
+.pictureModal .modal-header {
   color: @blue;
+  font-variant: small-caps;
+}
+.pictureModal .modal-body img{
+  margin: 0 auto;
 }
 
-.picturesModal #galleryCarousel {
+.pictureModal #galleryCarousel {
   width: 960px;
 }
 
-.picturesModal #galleryCarousel .carousel-inner {
+.pictureModal #galleryCarousel .carousel-inner {
   margin: auto;
   width: 800px;
 }
 
-.picturesModal .carousel-button {
+.pictureModal .carousel-button {
   border: 1px solid @blue;
   color: @blue;
   display: block;
@@ -267,17 +277,17 @@ a.thumbnail:hover {
   width: 80px;
 }
 
-.picturesModal .carousel-button.left {
+.pictureModal .carousel-button.left {
   border-radius: 4px 0 0 4px;
 }
 
-.picturesModal .carousel-button.right {
+.pictureModal .carousel-button.right {
   border-radius: 0 4px 4px 0;
   right: 0;
   left: auto;
 }
 
-.picturesModal .carousel-button:hover {
+.pictureModal .carousel-button:hover {
   border: 1px solid @pink;
   color: @pink;
 }

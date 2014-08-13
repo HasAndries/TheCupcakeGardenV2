@@ -11,7 +11,7 @@
 
   {= block css =}{= endblock =}
 
-  <script lang="text/javascript" src="lib/google.js"></script>
+  <script lang="text/javascript" src="/lib/google.js"></script>
   <!--[if lte IE 8]>
   <script>
     document.createElement('ng-include');
@@ -41,13 +41,13 @@
   <div class="row">
     <div ng-if="displayMode=='mini'" class="col-md-2 nav {{ displayMode }}" style="display: none">
       <div class="navLogo">
-        <a href="/gallery"><img src="images/logo_small.gif"/></a>
+        <a href="/gallery"><img src="/images/logo_small.gif"/></a>
       </div>
       {= for menuItem in menuItems =}
       <a class="item" href="{[menuItem.link]}"><h1>{[menuItem.name]}</h1></a>
       {= endfor =}
       <div class="navFooter hidden-xs hidden-sm">
-        <img src="images/nav_footer.png"/>
+        <img src="/images/nav_footer.png"/>
       </div>
     </div>
 
@@ -57,13 +57,13 @@
 
     <div ng-if="displayMode=='full'" class="col-md-2 nav {{ displayMode }}" style="display: none">
       <div class="navLogo">
-        <a href="/gallery"><img src="images/logo_small.gif"/></a>
+        <a href="/gallery"><img src="/images/logo_small.gif"/></a>
       </div>
       {= for menuItem in menuItems =}
       <a class="item" href="{[menuItem.link]}"><h1>{[menuItem.name]}</h1></a>
       {= endfor =}
       <div class="navFooter">
-        <img src="images/nav_footer.png"/>
+        <img src="/images/nav_footer.png"/>
       </div>
     </div>
   </div>

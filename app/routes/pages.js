@@ -72,6 +72,11 @@ function Pages(app, config) {
   });
   //---------- /gallery/:folder ----------
   app.get('/gallery/:folder', function (req, res) {
+    var renderObjects = _this.renderObjects;
+    renderObjects.pageName = 'galleryItem';
+    renderObjects.title = ' - ' + req.params.folder + ' Gallery';
+    renderObjects.folder = req.params.folder;
+    //gather pictures
     var pictures = [];
     var folderPublicPath = [config['galleryPublicPath'], req.params.folder].join('/');
     var folderPath = path.join(__dirname, '../..', config['galleryPath'], req.params.folder);
@@ -86,7 +91,8 @@ function Pages(app, config) {
       if (stat.isFile() && name.length-name.indexOf('.') == 4)
         pictures.push({name: name, path: [folderPublicPath, name].join('/')});
     }
-    res.send(pictures)
+    renderObjects.pictures = pictures;
+    res.render('galleryItem', renderObjects);
   });
   app.get('/cupcakes', function (req, res) {
     var renderObjects = _this.renderObjects;

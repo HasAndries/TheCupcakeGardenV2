@@ -11,7 +11,7 @@
     <div class="row">
       {= endif =}
       <div class="col-md-3">
-        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
+        <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2 class="visible-md">{[thumbnail.name]}</h2>
@@ -29,7 +29,7 @@
     <div class="row">
       {= endif =}
       <div class="col-sm-4">
-        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
+        <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -46,7 +46,7 @@
     <div class="row">
       {= endif =}
       <div class="col-xs-6">
-        <a class="thumbnail" ng-click="loadPictures('{[thumbnail.name]}')" data-toggle="modal" data-target=".picturesModal">
+        <a class="thumbnail" href="gallery/{[thumbnail.name]}">
           <img src="{[thumbnail.path]}" alt="{[thumbnail.name]}"/>
 
           <h2>{[thumbnail.name]}</h2>
@@ -58,55 +58,5 @@
     {= endfor =}
   </div>
 
-  <div class="modal fade picturesModal" tabindex="-1" role="dialog" aria-labelledby="picturesModalLabel" aria-hidden="true">
-    <div class="modal-dialog {{ displayMode }}">
-      <div class="modal-content">
-        <div class="modal-header">
-          <a href="" class="close glyphicon glyphicon-remove" data-dismiss="modal" aria-hidden="true"></a>
-
-          <h2 class="modal-title">{{pictures.folder}}</h2>
-        </div>
-        <div class="modal-body">
-          <div ng-show="pictures.busy">Loading...</div>
-          <div ng-show="pictures.error">There was a problem loading the Gallery. Please try again later.</div>
-          <div ng-show="!pictures.busy">
-            <div ng-if="displayMode == 'full'" id="galleryCarousel" class="carousel slide" data-ride="carousel">
-              <!-- Indicators -->
-              <ol class="carousel-indicators">
-                <li data-target="#galleryCarousel" data-slide-to="{{$index}}" ng-repeat="item in pictures.items"></li>
-              </ol>
-
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <!-- Placeholder -->
-                <div class="item active" ng-if="!pictures.items.length"></div>
-                <div class="item" ng-class="$index == 0 && 'active'" ng-repeat="item in pictures.items" data-slide="next" data-target="#galleryCarousel">
-                  <img ng-src="{{item.path}}" alt="{{item.name}}" style="margin:auto;">
-                </div>
-              </div>
-
-              <!-- Controls -->
-              <a class="carousel-button left" href="#galleryCarousel" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left"></span>
-              </a>
-              <a class="carousel-button right" href="#galleryCarousel" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right"></span>
-              </a>
-            </div>
-            <div class="row" ng-repeat="iRow in getRowCount(slideCount, 12)">
-              <div ng-if="iRow*12+iCol<slideCount" class="col-md-1" ng-repeat="iCol in getNumber(12)">
-                <a class="thumbnail" data-target="#galleryCarousel" data-slide-to="{{iRow*8+iCol}}">
-                  <img ng-src="{{pictures.items[iRow*12+iCol].path}}" alt="{{pictures.items[iRow*12+iCol].name}}" />
-                </a>
-              </div>
-            </div>
-          </div>
-          <!--!pictures.busy-->
-        </div>
-      </div>
-      <!-- /.modal-content -->
-    </div>
-    <!-- /.modal-dialog -->
-  </div>
 </div>
 {= endblock =}
