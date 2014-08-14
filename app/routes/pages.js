@@ -1,6 +1,7 @@
 var less = require('less');
 var fs = require('fs');
 var path = require('path');
+var sizeOf = require('image-size');
 
 function Pages(app, config) {
   var _this = this;
@@ -87,10 +88,17 @@ function Pages(app, config) {
     //identify pictures
     for (index in items) {
       var name = items[index];
-      var stat = fs.statSync([folderPath, name].join('/'));
-      if (stat.isFile() && name.length-name.indexOf('.') == 4)
-        pictures.push({name: name, path: [folderPublicPath, name].join('/')});
+      var filePath = [folderPath, name].join('/');
+      var stat = fs.statSync(filePath);
+      if (stat.isFile() && name.length - name.indexOf('.') == 4)
+        pictures.push({name: name, path: [folderPublicPath, name].join('/'), size: sizeOf(filePath)});
     }
+    //sort images by height & width
+    pictures.sort(function(a,b){
+      if (b.size.height < a.size.height) return -1;
+      if (b.size.height == a.size.height && b.size.width > a.size.width) return -1;
+      return 1;
+    });
     renderObjects.pictures = pictures;
     res.render('galleryItem', renderObjects);
   });
@@ -117,7 +125,7 @@ function Pages(app, config) {
     for (index in items) {
       var name = items[index];
       var stat = fs.statSync([specialsPath, name].join('/'));
-      if (stat.isFile() && name.length-name.indexOf('.') == 4)
+      if (stat.isFile() && name.length - name.indexOf('.') == 4)
         specials.push({name: name, path: [specialsPublicPath, name].join('/')});
     }
     renderObjects.specials = specials;

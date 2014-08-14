@@ -15,6 +15,7 @@
     "less-middleware": "*",
     "whet.extend": "0.9.x",
     "node.extend": "1.x",
+    "image-size": "0.x",
     "grunt": "0.4.x",
     "grunt-contrib-copy": "0.5.0"
   }
