@@ -1,36 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
-<url>
-  <loc>http://www.thecupcakegarden.co.za/</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/gallery</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/cupcakes</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/specials</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/cakes</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/contact-us</loc>
-  <changefreq>monthly</changefreq>
-</url>
-<url>
-  <loc>http://www.thecupcakegarden.co.za/about-us</loc>
-  <changefreq>monthly</changefreq>
-</url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Cakes</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Corporate</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Flavours</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Holidays</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Kids</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Themes</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Toppers</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/gallery/Wedding</loc>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/cupcakes</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/candy-cart</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/cakes</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/contact-us</loc>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>http://www.thecupcakegarden.co.za/about-us</loc>
+    <changefreq>monthly</changefreq>
+  </url>
 </urlset>
