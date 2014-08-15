@@ -11,7 +11,7 @@ function Pages(app, config) {
       {name: 'home', link: '/'},
       {name: 'gallery', link: '/gallery'},
       {name: 'cupcakes', link: '/cupcakes'},
-      {name: 'specials', link: '/specials'},
+      {name: 'candy cart', link: '/candy-cart'},
       {name: 'cakes', link: '/cakes'},
       {name: 'contact us', link: '/contact-us'},
       {name: 'about us', link: '/about-us'}
@@ -102,6 +102,7 @@ function Pages(app, config) {
     renderObjects.pictures = pictures;
     res.render('galleryItem', renderObjects);
   });
+  //---------- cupcakes ----------
   app.get('/cupcakes', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'cupcakes';
@@ -109,28 +110,15 @@ function Pages(app, config) {
 
     res.render('cupcakes', renderObjects);
   });
-  app.get('/specials', function (req, res) {
+  //---------- candy-cart ----------
+  app.get('/candy-cart', function (req, res) {
     var renderObjects = _this.renderObjects;
-    renderObjects.pageName = 'specials';
-    renderObjects.title = ' - Specials';
+    renderObjects.pageName = 'candyCart';
+    renderObjects.title = ' - Candy Cart';
 
-    //gather thumbnails
-    var specials = [];
-    var specialsPublicPath = config['specialsPublicPath'];
-    var specialsPath = path.join(__dirname, '../..', config['specialsPath']);
-
-    var fs = require('fs');
-    var items = fs.readdirSync(specialsPath);
-    var index;
-    for (index in items) {
-      var name = items[index];
-      var stat = fs.statSync([specialsPath, name].join('/'));
-      if (stat.isFile() && name.length - name.indexOf('.') == 4)
-        specials.push({name: name, path: [specialsPublicPath, name].join('/')});
-    }
-    renderObjects.specials = specials;
-    res.render('specials', renderObjects);
+    res.render('candy-cart', renderObjects);
   });
+  //---------- cakes ----------
   app.get('/cakes', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'cakes';
@@ -138,6 +126,7 @@ function Pages(app, config) {
 
     res.render('cakes', renderObjects);
   });
+  //---------- contact-us ----------
   app.get('/contact-us', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'contact-us';
@@ -145,6 +134,7 @@ function Pages(app, config) {
 
     res.render('contact-us', renderObjects);
   });
+  //---------- about-us ----------
   app.get('/about-us', function (req, res) {
     var renderObjects = _this.renderObjects;
     renderObjects.pageName = 'about-us';

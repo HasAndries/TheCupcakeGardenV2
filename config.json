@@ -1,20 +1,50 @@
 {
-  "andries": {
+  "all":{
     "galleryPath": "app/public/content/gallery",
     "galleryPublicPath": "/content/gallery",
-    "specialsPath": "app/public/content/specials",
-    "specialsPublicPath": "/content/specials"
+    "localPath": "app/public",
+    "publicPath": "",
+    "cssFiles": [
+      "/styles/bootstrap/bootstrap.min.css",
+      "/styles/bootstrap/bootstrap-theme.min.css",
+      "/main.css"
+    ],
+    "appFiles": [
+      "/js/misc/prototypes.js",
+      "/js/config.base.js",
+      "/js/config.js",
+      "/js/app.js",
+      "/js/services/displayService.js",
+      "/js/directives/sizeMonitor.js",
+      "/js/directives/windowMonitor.js",
+      "/js/controllers/layoutController.js",
+      "/js/controllers/cakesController.js",
+      "/js/controllers/candyCartController.js",
+      "/js/controllers/galleryController.js",
+      "/js/controllers/galleryItemController.js",
+      "/js/controllers/homeController.js"
+    ],
+    "libFiles": [
+      "/lib/google.js",
+      "/lib/json2.js",
+      "/lib/jquery/jquery-1.10.2.min.js",
+      "/lib/bootstrap/bootstrap.js",
+      "/lib/angular/angular.js"
+    ]
+  },
+  "andries": {
   },
   "development": {
-    "galleryPath": "app/public/content/gallery",
-    "galleryPublicPath": "/content/gallery",
-    "specialsPath": "app/public/content/specials",
-    "specialsPublicPath": "/content/specials"
   },
   "production": {
-    "galleryPath": "app/public/content/gallery",
-    "galleryPublicPath": "/content/gallery",
-    "specialsPath": "app/public/content/specials",
-    "specialsPublicPath": "/content/specials"
+    "cssFiles": [
+      "/main.css"
+    ],
+    "appFiles": [
+      "/lib.js"
+    ],
+    "libFiles": [
+      "/app.js"
+    ]
   }
 }
