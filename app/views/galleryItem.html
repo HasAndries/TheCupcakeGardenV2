@@ -27,7 +27,7 @@
       {= endif =}
       <div class="col-sm-4">
         <a class="thumbnail picture" ng-click="showPicture('{[picture.path]}')" data-toggle="modal" data-target=".pictureModal">
-          <img src="{[picture.path]}" alt="{[picture.name]}"/>
+          <img src="{[picture.thumbnail]}" alt="{[picture.name]}"/>
         </a>
       </div>
       {= if loop.index0 % 3 === 2 || loop.last =}
@@ -42,7 +42,7 @@
       {= endif =}
       <div class="col-xs-6">
         <a class="thumbnail picture" ng-click="showPicture('{[picture.path]}')" data-toggle="modal" data-target=".pictureModal">
-          <img src="{[picture.path]}" alt="{[picture.name]}"/>
+          <img src="{[picture.thumbnail]}" alt="{[picture.name]}"/>
         </a>
       </div>
       {= if loop.index0 % 2 === 1 || loop.last =}
