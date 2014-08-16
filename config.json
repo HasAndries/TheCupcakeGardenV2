@@ -47,7 +47,7 @@
   },
   "production": {
     "cssFiles": [
-      "/all.css"
+      "/styles/all.css"
     ],
     "appFiles": [
       "/app.js"
