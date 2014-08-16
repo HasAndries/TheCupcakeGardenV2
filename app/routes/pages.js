@@ -15,13 +15,25 @@ function Pages(app, config) {
       {name: 'cakes', link: '/cakes'},
       {name: 'contact us', link: '/contact-us'},
       {name: 'about us', link: '/about-us'}
-    ]
+    ],
+    cssFiles: config.cssFiles,
+    appFiles: config.appFiles,
+    libFiles: config.libFiles
   };
   //---------- /main.css ----------
   app.get('/main.css', function (req, res) {
     less.render(fs.readFileSync(path.join(__dirname, '../public/styles/main.less'), 'utf8'), function (err, data) {
       if (err) throw err;
       res.set('Content-Type', 'text/css');
+      res.send(data);
+    });
+  });
+  //---------- /all.css ----------
+  app.get('/main.css', function (req, res) {
+    less.render(fs.readFileSync(path.join(__dirname, '../public/styles/main.less'), 'utf8'), function (err, data) {
+      if (err) throw err;
+      res.set('Content-Type', 'text/css');
+
       res.send(data);
     });
   });

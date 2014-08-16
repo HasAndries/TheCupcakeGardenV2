@@ -11,9 +11,9 @@
     ],
     "appFiles": [
       "/js/misc/prototypes.js",
+      "/js/app.js",
       "/js/config.base.js",
       "/js/config.js",
-      "/js/app.js",
       "/js/services/displayService.js",
       "/js/directives/sizeMonitor.js",
       "/js/directives/windowMonitor.js",
@@ -25,7 +25,6 @@
       "/js/controllers/homeController.js"
     ],
     "libFiles": [
-      "/lib/google.js",
       "/lib/json2.js",
       "/lib/jquery/jquery-1.10.2.min.js",
       "/lib/bootstrap/bootstrap.js",
@@ -33,18 +32,28 @@
     ]
   },
   "andries": {
+
   },
   "development": {
+    "cssFiles": [
+      "/all.css"
+    ],
+    "appFiles": [
+      "/app.js"
+    ],
+    "libFiles": [
+      "/lib.js"
+    ]
   },
   "production": {
     "cssFiles": [
-      "/main.css"
+      "/all.css"
     ],
     "appFiles": [
-      "/lib.js"
+      "/app.js"
     ],
     "libFiles": [
-      "/app.js"
+      "/lib.js"
     ]
   }
 }
