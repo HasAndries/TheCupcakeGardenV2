@@ -5,7 +5,7 @@ module.exports = function (grunt) {
     less:{
       css:{
         files:{
-          "app/public/main.css": "app/public/styles/main.less"
+          "app/public/styles/main.css": "app/public/styles/main.less"
         }
       }
     },
@@ -15,7 +15,7 @@ module.exports = function (grunt) {
           separator: grunt.util.linefeed
         },
         src: config.cssFiles.map(function(file){ return 'app/public'+file;}),
-        dest: 'app/public/all.css'
+        dest: 'app/public/styles/all.css'
       },
       app: {
         options: {
@@ -70,7 +70,7 @@ module.exports = function (grunt) {
           banner: '/*! <%= pkg.name %> all.css <%= grunt.template.today("dd-mm-yyyy") %> */\n'
         },
         files: {
-          'app/public/all.css': ['app/public/all.css']
+          'app/public/styles/all.css': ['app/public/styles/all.css']
         }
       }
     }

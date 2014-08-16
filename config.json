@@ -5,9 +5,9 @@
     "localPath": "app/public",
     "publicPath": "",
     "cssFiles": [
-      "/styles/bootstrap/bootstrap.min.css",
-      "/styles/bootstrap/bootstrap-theme.min.css",
-      "/main.css"
+      "/styles/bootstrap.min.css",
+      "/styles/bootstrap-theme.min.css",
+      "/styles/main.css"
     ],
     "appFiles": [
       "/js/misc/prototypes.js",
@@ -36,7 +36,7 @@
   },
   "development": {
     "cssFiles": [
-      "/all.css"
+      "/styles/all.css"
     ],
     "appFiles": [
       "/app.js"

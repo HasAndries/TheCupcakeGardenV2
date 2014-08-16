@@ -21,7 +21,7 @@ function Pages(app, config) {
     libFiles: config.libFiles
   };
   //---------- /main.css ----------
-  app.get('/main.css', function (req, res) {
+  app.get('/styles/main.css', function (req, res) {
     less.render(fs.readFileSync(path.join(__dirname, '../public/styles/main.less'), 'utf8'), function (err, data) {
       if (err) throw err;
       res.set('Content-Type', 'text/css');
