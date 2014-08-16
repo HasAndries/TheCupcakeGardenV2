@@ -21,7 +21,7 @@
     {= endfor =}
   </div>
   <div class="visible-sm">
-    {= for thumbnail in thumbnails =}
+    {= for picture in pictures =}
     {= if loop.index0 % 3 === 0 =}
     <div class="row">
       {= endif =}
@@ -36,7 +36,7 @@
     {= endfor =}
   </div>
   <div class="visible-xs">
-    {= for thumbnail in thumbnails =}
+    {= for picture in pictures =}
     {= if loop.index0 % 2 === 0 =}
     <div class="row">
       {= endif =}
