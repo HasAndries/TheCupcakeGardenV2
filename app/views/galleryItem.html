@@ -12,7 +12,7 @@
       {= endif =}
       <div class="col-md-3">
         <a class="thumbnail picture" ng-click="showPicture('{[picture.path]}')" data-toggle="modal" data-target=".pictureModal">
-          <img src="{[picture.path]}" alt="{[picture.name]}"/>
+          <img src="{[picture.thumbnail]}" alt="{[picture.name]}"/>
         </a>
       </div>
       {= if loop.index0 % 4 === 3 || loop.last =}

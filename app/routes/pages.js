@@ -91,7 +91,7 @@ function Pages(app, config) {
       var filePath = [folderPath, name].join('/');
       var stat = fs.statSync(filePath);
       if (stat.isFile() && name.length - name.indexOf('.') == 4)
-        pictures.push({name: name, path: [folderPublicPath, name].join('/'), size: sizeOf(filePath)});
+        pictures.push({name: name, thumbnail: [folderPublicPath, 'thumbnails', name].join('/'), path: [folderPublicPath, name].join('/'), size: sizeOf(filePath)});
     }
     //sort images by height & width
     pictures.sort(function(a,b){
