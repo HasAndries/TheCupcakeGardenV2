@@ -2,6 +2,13 @@ module.exports = function (grunt) {
   var config = grunt.file.readJSON('config.json')['all'];
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    less:{
+      css:{
+        files:{
+          "app/public/main.css": "app/public/styles/main.less"
+        }
+      }
+    },
     concat: {
       css: {
         options: {
@@ -56,17 +63,31 @@ module.exports = function (grunt) {
           'app/public/lib.js': ['app/public/lib.js']
         }
       }
+    },
+    cssmin:{
+      all: {
+        options: {
+          banner: '/*! <%= pkg.name %> all.css <%= grunt.template.today("dd-mm-yyyy") %> */\n'
+        },
+        files: {
+          'app/public/all.css': ['app/public/all.css']
+        }
+      }
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-less');
   grunt.loadNpmTasks('grunt-contrib-concat');
-  grunt.loadNpmTasks('grunt-ngmin');
   grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-cssmin');
+  grunt.loadNpmTasks('grunt-ngmin');
 
+  grunt.registerTask('lessAll', ['less:css']);
   grunt.registerTask('concatAll', ['concat:css', 'concat:app', 'concat:lib']);
   grunt.registerTask('ngminAll', ['ngmin:app', 'ngmin:lib']);
   grunt.registerTask('uglifyAll', ['uglify:app', 'uglify:lib']);
+  grunt.registerTask('cssminAll', ['cssmin:all']);
 
-  grunt.registerTask('dist', ['concatAll', 'ngminAll', 'uglifyAll']);
+  grunt.registerTask('dist', ['lessAll', 'concatAll', 'ngminAll', 'uglifyAll', 'cssminAll']);
   grunt.registerTask('default', ['dist']);
 };

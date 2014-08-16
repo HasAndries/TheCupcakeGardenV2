@@ -1,0 +1,447 @@
+/********************************************************
+LAYOUT
+********************************************************/
+@font-face {
+  font-family: 'SFCartoonistHand';
+  src: url('../fonts/SF_Cartoonist_Hand-webfont.eot');
+  src: url('../fonts/SF_Cartoonist_Hand-webfont.eot?.iefix') format('embedded-opentype'), url('../fonts/SF_Cartoonist_Hand-webfont.woff') format('woff'), url('../fonts/SF_Cartoonist_Hand-webfont.ttf') format('truetype'), url('../fonts/SF_Cartoonist_Hand-webfont.svg.SFCartoonistHand') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+html,
+body {
+  background-color: #F5F5F5;
+  background-color: #f5f5f5;
+  background-image: -webkit-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(245, 245, 245, 0.8)), color-stop(100%, rgba(245, 245, 245, 0.8))), url(../images/textured_stripes.png);
+  background-image: -moz-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  background-image: -ms-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  background-image: -o-linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  background-image: linear-gradient(top, rgba(245, 245, 245, 0.8), rgba(245, 245, 245, 0.8)), url(../images/textured_stripes.png);
+  color: #333333;
+}
+h2 {
+  color: #616362;
+}
+.container {
+  margin-top: 20px;
+}
+.container.mini {
+  color: #616362;
+  font-size: 16px;
+  width: 100%;
+}
+.container.mini h2 {
+  font-size: 60px;
+}
+.container.mini h3 {
+  font-size: 48px;
+}
+.main {
+  background-color: #fdfdfd;
+  box-shadow: 0px 0px 2px #ccc;
+  padding: 0;
+}
+.main.full {
+  background: #fdfdfd url(../images/background.gif) top no-repeat;
+  margin-right: 1.3%;
+  min-height: 664px;
+  width: 80%;
+}
+.main.mini {
+  background: #fdfdfd url(../images/background.gif) top no-repeat;
+}
+.nav {
+  background-color: #fdfdfd;
+  box-shadow: 0px 0px 2px #ccc;
+  padding-right: 0;
+}
+.nav.full {
+  min-height: 664px;
+  width: 140px;
+}
+.navLogo {
+  height: 100px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  width: 132px;
+}
+.navLogo img {
+  width: 132px;
+}
+.nav .item {
+  background-color: #7fb3b1;
+  background-color: rgba(127, 179, 177, 0.8);
+  border: 4px solid #fff;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px rgba(210, 210, 200, 0.8);
+  color: #fff;
+  display: block;
+  height: 54px;
+  line-height: 36px;
+  margin: 4px 8px;
+  text-align: center;
+  text-shadow: 1px 1px 1px #aaa;
+  padding-top: 8px;
+}
+.nav.mini .item {
+  height: 80px;
+}
+.nav .item:hover {
+  text-decoration: none;
+  background-color: #e7b1af;
+  background-color: rgba(231, 177, 175, 0.8);
+}
+.nav h1 {
+  display: block;
+  font-family: SFCartoonistHand, serif;
+  font-size: 28px;
+  font-weight: normal;
+  height: 36px;
+  margin: 0px;
+}
+.nav.mini h1 {
+  font-size: 48px;
+  height: 36px;
+  margin: 0px;
+}
+.navFooter {
+  padding-bottom: 10px;
+}
+.content {
+  margin-left: 0;
+  padding-top: 10px;
+  min-height: 560px;
+}
+.content.full {
+  margin-top: 100px;
+}
+/********************************************************
+HOME
+********************************************************/
+.content.home a,
+img {
+  display: block;
+}
+.content.home.full .logo {
+  margin-top: 358px;
+  margin-left: 50px;
+}
+.content.home.mini .logo {
+  margin-top: 480px;
+  margin-left: 30px;
+  padding-bottom: 40px;
+}
+/********************************************************
+GALLERY
+********************************************************/
+.content.gallery {
+  background-color: #ffffff;
+}
+.content.gallery.full {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.content.gallery.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.thumbnail {
+  background-color: #FFFFFF;
+  background-color: #ffffff;
+  background-image: -webkit-linear-gradient(top, rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.8)), url(../images/textured_stripes.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(253, 253, 253, 0.8)), color-stop(100%, rgba(253, 253, 253, 0.8))), url(../images/textured_stripes.png);
+  background-image: -moz-linear-gradient(top, rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.8)), url(../images/textured_stripes.png);
+  background-image: -ms-linear-gradient(top, rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.8)), url(../images/textured_stripes.png);
+  background-image: -o-linear-gradient(top, rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.8)), url(../images/textured_stripes.png);
+  background-image: linear-gradient(top, rgba(253, 253, 253, 0.8), rgba(253, 253, 253, 0.8)), url(../images/textured_stripes.png);
+  color: #616362;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-shadow: 1px 1px 1px #f0fff0;
+}
+.thumbnail h2 {
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+}
+.thumbnail.picture img {
+  max-height: 180px;
+}
+.thumbnail h2.visible-lg {
+  font-size: 22px;
+}
+.thumbnail h2.visible-lg span {
+  font-size: 26px;
+}
+.thumbnail h2.visible-md {
+  font-size: 18px;
+}
+.thumbnail h2.visible-md span {
+  font-size: 24px;
+}
+.content.gallery.sizeSm .thumbnail h2 {
+  font-size: 32px;
+}
+.content.gallery.sizeSm .thumbnail h2 span {
+  font-size: 38px;
+}
+.content.gallery.sizeXs .thumbnail h2 {
+  font-size: 32px;
+}
+.content.gallery.sizeXs .thumbnail h2 span {
+  font-size: 38px;
+}
+a.thumbnail:hover {
+  color: #E77FAF;
+  color: #e77faf;
+  cursor: pointer;
+  border-color: rgba(231, 127, 175, 0.6);
+  text-decoration: none;
+}
+.modal-dialog.full {
+  width: 842px;
+}
+.modal-dialog.mini {
+  margin: 0px;
+  width: 100%;
+}
+.modal-dialog.full .close {
+  font-size: 48px;
+}
+.modal-dialog.mini .close {
+  font-size: 62px;
+}
+.modal-dialog.mini .modal-title {
+  font-size: 48px;
+}
+.pictureModal .modal-header {
+  color: #7fb3b1;
+  font-variant: small-caps;
+}
+.pictureModal .modal-body img {
+  margin: 0 auto;
+}
+.pictureModal #galleryCarousel {
+  width: 960px;
+}
+.pictureModal #galleryCarousel .carousel-inner {
+  margin: auto;
+  width: 800px;
+}
+.pictureModal .carousel-button {
+  border: 1px solid #7fb3b1;
+  color: #7fb3b1;
+  display: block;
+  font-size: 72px;
+  padding-top: 25%;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 80px;
+}
+.pictureModal .carousel-button.left {
+  border-radius: 4px 0 0 4px;
+}
+.pictureModal .carousel-button.right {
+  border-radius: 0 4px 4px 0;
+  right: 0;
+  left: auto;
+}
+.pictureModal .carousel-button:hover {
+  border: 1px solid #e7b1af;
+  color: #e7b1af;
+}
+/********************************************************
+CUPCAKES
+********************************************************/
+.content.cupcakes {
+  background-color: #ffffff;
+  padding-bottom: 16px;
+}
+.content.cupcakes.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.cupcakes.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content.cupcakes h3 {
+  color: #7fb3b1;
+}
+.content.cupcakes .picture img {
+  margin: auto;
+}
+.content.cupcakes .info {
+  margin-top: 20px;
+}
+/********************************************************
+CANDY-CART
+********************************************************/
+.content.candy-cart {
+  background-color: #ffffff;
+}
+.content.candy-cart.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.candy-cart.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content.candy-cart .download {
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #ddd;
+  background-color: #e7b1af;
+  color: #eeeeee;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 24px;
+  padding: 3px 4px;
+}
+.content.candy-cart.mini .download {
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10px 4px;
+  text-align: center;
+  width: 100%;
+}
+.content.candy-cart .download:hover {
+  background-color: #7fb3b1;
+  text-decoration: none;
+}
+.content.candy-cart .side img {
+  margin-top: 20px;
+  width: 100%;
+}
+/********************************************************
+CAKES
+********************************************************/
+.content.cakes {
+  background-color: #ffffff;
+}
+.content.cakes.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.cakes.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content.cakes h3 {
+  color: #7fb3b1;
+}
+.content.cakes .section {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 4px;
+  padding-bottom: 24px;
+}
+.content.cakes .col-md-4 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.content.cakes .sizeXs img {
+  width: 32%;
+}
+/********************************************************
+CONTACT-US
+********************************************************/
+.content.contact-us {
+  background-color: #ffffff;
+}
+.content.contact-us.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.contact-us.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content.contact-us .notice {
+  margin-top: 24px;
+}
+.content.contact-us .info {
+  margin-top: 24px;
+}
+.content.contact-us .info .left {
+  display: inline-block;
+  width: 64px;
+}
+.content.contact-us.mini .info .left {
+  display: inline;
+  margin-right: 8px;
+}
+.content.contact-us .info .email {
+  color: #333333;
+  font-weight: bold;
+}
+.content.contact-us .info .email:hover {
+  color: #7fb3b1;
+}
+.content.contact-us .facebook {
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #ddd;
+  display: block;
+  margin-top: 24px;
+  width: 200px;
+}
+.content.contact-us.mini .facebook {
+  width: 100%;
+}
+.content.contact-us .facebook:hover {
+  box-shadow: 1px 1px 1px rgba(127, 179, 177, 0.8);
+}
+.content.contact-us .facebook img {
+  border-radius: 2px;
+  width: 100%;
+}
+.content.contact-us .newsletter {
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px #ddd;
+  background-color: #e7b1af;
+  color: #eeeeee;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 24px;
+  padding: 3px 4px;
+}
+.content.contact-us.mini .newsletter {
+  color: #ffffff;
+  font-size: 36px;
+  padding: 10px 4px;
+  text-align: center;
+  width: 100%;
+}
+.content.contact-us .newsletter:hover {
+  background-color: #7fb3b1;
+  text-decoration: none;
+}
+/********************************************************
+ABOUT-US
+********************************************************/
+.content.about-us {
+  background-color: #ffffff;
+  padding-bottom: 16px;
+}
+.content.about-us.full {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content.about-us.mini {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.content.about-us .picture img {
+  width: 100%;
+}
+.content.about-us h3 {
+  color: #7fb3b1;
+}
+.content.about-us.mini h3 {
+  color: #7fb3b1;
+  margin-top: 40px;
+}

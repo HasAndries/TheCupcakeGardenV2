@@ -17,8 +17,10 @@
     "node.extend": "1.x",
     "image-size": "0.x",
     "grunt": "0.4.x",
+    "grunt-contrib-less": "x",
     "grunt-contrib-concat": "x",
     "grunt-contrib-uglify": "x",
+    "grunt-contrib-cssmin": "x",
     "grunt-ngmin": "x"
   }
 }
