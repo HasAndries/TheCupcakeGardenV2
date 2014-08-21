@@ -20,7 +20,7 @@ function Admin(config) {
   app.use(express.compress());
   app.use(app.router);
   var oneDay = 86400000;
-  app.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay})); //public
+  app.use(express.static(path.join(__dirname, 'public'), {maxAge: oneDay*7})); //public
   //views
   app.set('views', path.join(__dirname, 'views'));
   app.set('view engine', 'html');
