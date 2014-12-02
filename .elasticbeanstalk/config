@@ -1,0 +1,14 @@
+[global]
+ApplicationName=TheCupcakeGardenV2
+AwsCredentialFile=c:/Users/hasandries\.elasticbeanstalk\aws_credential_file
+DevToolsEndpoint=git.elasticbeanstalk.eu-west-1.amazonaws.com
+EnvironmentName=TheCupcakeGardenV2-env
+EnvironmentTier=WebServer::Standard::1.0
+EnvironmentType=SingleInstance
+InstanceProfileName=aws-elasticbeanstalk-ec2-role
+OptionSettingFile=c:\projects\TheCupcakeGardenV2\.elasticbeanstalk\optionsettings.TheCupcakeGardenV2-env
+RdsEnabled=No
+Region=eu-west-1
+ServiceEndpoint=https://elasticbeanstalk.eu-west-1.amazonaws.com
+SolutionStack=32bit Amazon Linux 2014.03 v1.0.9 running Node.js
+
