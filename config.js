@@ -8,3 +8,4 @@ var config = extend({}, configContent.all, configContent[env]);
 console.log('Loading config['+env+']');
 console.log(JSON.stringify(config));
 module.exports = config;
+
